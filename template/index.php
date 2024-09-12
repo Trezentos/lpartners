@@ -34,7 +34,7 @@ get_header();
 
 		<div class="lp_container">
 			<div class="lp_top">
-				LP TRACKING
+				L TRACKING
 				<div class="lp_globe"><i class="fa fa-search" aria-hidden="true"></i></div>
 				<div class="lp_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 			</div>

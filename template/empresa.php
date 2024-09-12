@@ -92,14 +92,14 @@ get_header();
 						<img src="<?php echo HTTP; ?>img/logo-2006-lpexport.jpg"/>
 					</div>
 					<div class="ano">2006</div>
-					<!-- <p class="has-text-justify">Fundador da empresa, realiza um sonho antigo, dá início a LP Export em Dubai, Emirados Arabes Unidos. Na época, com mais de 25 anos de atuação no mercado internacional de carnes, sua intenção inicial é promover a carne brasileira nos países do Oriente Médio e Rússia.</p> -->
+					<!-- <p class="has-text-justify">Fundador da empresa, realiza um sonho antigo, dá início a LPartners em Dubai, Emirados Arabes Unidos. Na época, com mais de 25 anos de atuação no mercado internacional de carnes, sua intenção inicial é promover a carne brasileira nos países do Oriente Médio e Rússia.</p> -->
 				</div>
 				<div class="column is-3 has-text-centered waypoint animation_bottom">
 					<div>
 						<img src="<?php echo HTTP; ?>img/logo-2008-lpexport.jpg"/>
 					</div>
 					<div class="ano">2008</div>
-					<!-- <p class="has-text-justify">O horizonte da empresa se amplia e a LP Export vai em busca de novas parcerias, inclusive de outras origens. Consequentemente, cresce significativamente o número de fornecedores, dentre os quais agora constam americanos, europeus e asiáticos.</p> -->
+					<!-- <p class="has-text-justify">O horizonte da empresa se amplia e a LPartners vai em busca de novas parcerias, inclusive de outras origens. Consequentemente, cresce significativamente o número de fornecedores, dentre os quais agora constam americanos, europeus e asiáticos.</p> -->
 				</div>
 				<div class="column is-3 has-text-centered waypoint animation_right">
 					<div>
@@ -188,7 +188,7 @@ get_header();
 					<br><br>
 					Rever incessantemente nossas práticas, processos, ações e abordagens para que a excelência de nossos serviços seja uma constante;
 					<br><br>
-					Agir de forma a consolidar a imagem da LP Export como uma empresa sólida, versátil e 100% confiável perante um mercado internacional extremamente exigente, mutável e multicultural.
+					Agir de forma a consolidar a imagem da LPartners como uma empresa sólida, versátil e 100% confiável perante um mercado internacional extremamente exigente, mutável e multicultural.
 				</div>
 				<div class="column is-6 waypoint animation_right">
 					<img src="<?php echo HTTP; ?>img/sustentabilidade.jpg"/>

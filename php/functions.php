@@ -952,7 +952,7 @@ function get_header() {
 	$_html[] = '<body>
 	<div class="lp_container_lateral '.(!$MOBILE  ? "is-enabled":"hidden").'">
 		<div class="lp_top">
-			LP TRACKING
+			L TRACKING
 			<div class="lp_globe"><i class="fa fa-search" aria-hidden="true"></i></div>
 			<div class="lp_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 		</div>
@@ -1006,7 +1006,6 @@ function get_header() {
 						
 						<ul class="sub-empresa">
 							<li><a href="'.HTTP.'institucional/'.$lang.'">'.$_lang[$lang]['menu_institucional'].'</a></li>
-							<li><a href="'.HTTP.'historia/'.$lang.'">'.$_lang[$lang]['menu_historia'].'</a></li>
 						</ul>
 					</li>
 					<li>
@@ -1094,7 +1093,7 @@ function get_header() {
 						
 						<ul class="sub-empresa">
 							<li><a href="'.HTTP.'institucional/'.$lang.'">'.$_lang[$lang]['menu_institucional'].'</a></li>
-							<li><a href="'.HTTP.'historia/'.$lang.'">'.$_lang[$lang]['menu_historia'].'</a></li>
+							
 						</ul>
 					</li>
 					<li>
@@ -1144,7 +1143,6 @@ function get_footer() {
 				<div class="column is-2" style="position:relative;">
 					<h3>'.$_lang[$lang]['menu_empresa'].'</h3>
 					<a href="'.HTTP.'institucional/'.$lang.'" class="link">'.$_lang[$lang]['menu_empresa'].'</a>
-					<a href="'.HTTP.'historia/'.$lang.'" class="link">'.$_lang[$lang]['historia'].'</a>
 					<a href="'.HTTP.'contato/'.$lang.'" class="link">'.$_lang[$lang]['nossos_escritorios'].'</a>
 					<a href="'.HTTP.'indices-financeiros/'.$lang.'" class="link '.($lang == "pt"?"":"is-hidden").'">Índices Financeiros</a>
 				</div>
@@ -1201,7 +1199,7 @@ function get_footer() {
 				<img class="logo-footer waypoint animation_bottom" src="'.HTTP.'img/lp-export-logo-atual.png" alt="LP Export"/>
 			</a>
 			<!-- <div class="social waypoint animation_bottom">
-				<a href="https://www.facebook.com/LPExport/" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/LPartners/" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				<a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 				<a href="https://www.youtube.com/user/" target="_blank" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 			</div> -->

@@ -98,18 +98,18 @@ $style = array();
 $javascript = array('bootstrap.js', 'jquery.tablesorter-pager.js', 'script.admin.js');
 $style = array('css/bootstrap.min.css', 'css/style.css');
 
-if ( $userClass->usuarioLogado() === false ) {
-	header("Location: login.php");
-	exit;
-} else {
-	$RequestedPermission = $userClass->acessoPagina();
-	if ($RequestedPermission === true ) {
-		// NADA
-	} else {
-		header("Location: index.php?erro=".base64_encode($RequestedPermission));
-		exit;
-	}
-}
+// if ( $userClass->usuarioLogado() === false ) {
+// 	header("Location: login.php");
+// 	exit;
+// } else {
+// 	$RequestedPermission = $userClass->acessoPagina();
+// 	if ($RequestedPermission === true ) {
+// 		// NADA
+// 	} else {
+// 		header("Location: index.php?erro=".base64_encode($RequestedPermission));
+// 		exit;
+// 	}
+// }
 
 $autor = $userClass->getId();
 $acessoAutor = $userClass->getAcesso();

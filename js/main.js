@@ -215,7 +215,7 @@ jQuery(document).ready(function($)
 
 
 
-	// OPEN E CLOSE LP TRACKING
+	// OPEN E CLOSE L TRACKING
 	$('.lp_container .lp_top').click(function(e)
 	{
 		if( !$('.lp_container').hasClass("is-active") )
@@ -227,7 +227,7 @@ jQuery(document).ready(function($)
 	});
 
 
-	// OPEN E CLOSE LP TRACKING
+	// OPEN E CLOSE L TRACKING
 	$('.lp_container_lateral .lp_top').click(function(e)
 	{
 		if( !$('.lp_container_lateral').hasClass("is-active") )
@@ -322,7 +322,7 @@ jQuery(document).ready(function($)
 		    case "1":
 		    	// Diretor Comercial
 		        $(".brasil #nome-setor").html('Luciano Colonetti');
-				$(".brasil #email-setor").html('<a href="mailto:luciano@lpexport.net">luciano@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:luciano@lpartners.net">luciano@lpartners.net</a>');
 		        $(".brasil #mobile-setor").html('');
 				// $(".brasil #skype-setor").html('');
 				$(".brasil .skype-button").attr('href', 'skype:');
@@ -331,52 +331,52 @@ jQuery(document).ready(function($)
 		    case "2":
 		    	// Gerente de compras
 				$(".brasil #nome-setor").html('Rafael Andreas Guenther');
-				$(".brasil #email-setor").html('<a href="mailto:rafael@lpexport.net">rafael@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:rafael@lpartners.net">rafael@lpartners.net</a>');
 				$(".brasil #mobile-setor").html('+55 (47) 99963 0675');
-				// $(".brasil #skype-setor").html('rafael.LPexport');
-				$(".brasil .skype-button").attr('href', 'skype:rafael.lpexport');
+				// $(".brasil #skype-setor").html('rafael.lpartners');
+				$(".brasil .skype-button").attr('href', 'skype:rafael.lpartners');
 				break;
 
 		    case "3":
 		        // Vendas - Africa e Caribe
 		        $(".brasil #nome-setor").html('Natalia Colonetti Lima');
-				$(".brasil #email-setor").html('<a href="mailto:natalia@lpexport.net">natalia@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:natalia@lpartners.net">natalia@lpartners.net</a>');
 		        $(".brasil #mobile-setor").html('+55 (48) 99673 9838');
-		        // $(".brasil #skype-setor").html('natalia@LPexport.net');
-				$(".brasil .skype-button").attr('href', 'skype:natalia.lpexport');
+		        // $(".brasil #skype-setor").html('natalia@lpartners.net');
+				$(".brasil .skype-button").attr('href', 'skype:natalia.lpartners');
 				break;
 				
 			case "4":
 				// Coordenadora Administrativa
 				$(".brasil #nome-setor").html('Carolina Leticia Michelon');
-				$(".brasil #email-setor").html('<a href="mailto:carolina@LPexport.net">carolina@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:carolina@lpartners.net">carolina@lpartners.net</a>');
 				// $(".brasil #mobile-setor").html('+55 (47) 99907 6943');
-				// $(".brasil #skype-setor").html('araceli.LPexport');
+				// $(".brasil #skype-setor").html('araceli.lpartners');
 				$(".brasil .skype-button").attr('href', 'skype:');
 				break;
 		        
 		    case "5":
 		        // Logistics and Documents Coordinator
 		        $(".brasil #nome-setor").html('Ocemar Bernardes Junior');
-				$(".brasil #email-setor").html('<a href="mailto:ocemar@lpexport.net">ocemar@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:ocemar@lpartners.net">ocemar@lpartners.net</a>');
 		        $(".brasil #mobile-setor").html('');
-		        // $(".brasil #skype-setor").html('ocemar.LPexport');
-				$(".brasil .skype-button").attr('href', 'skype:ocemar.lpexport');
+		        // $(".brasil #skype-setor").html('ocemar.lpartners');
+				$(".brasil .skype-button").attr('href', 'skype:ocemar.lpartners');
 		        break;
 
 		    case "6":
 		        // Financial Controller + Logistics - Asia
 		        $(".brasil #nome-setor").html('Samuel Fillipe Goncalves');
-				$(".brasil #email-setor").html('<a href="mailto:samuel@lpexport.net">samuel@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:samuel@lpartners.net">samuel@lpartners.net</a>');
 		        $(".brasil #mobile-setor").html('+55 (47) 99992 4245');
-		        // $(".brasil #skype-setor").html('samuel.LPexport');
-				$(".brasil .skype-button").attr('href', 'skype:samuel.lpexport');
+		        // $(".brasil #skype-setor").html('samuel.lpartners');
+				$(".brasil .skype-button").attr('href', 'skype:samuel.lpartners');
 		        break;
 
 		    case "7":
 		        // Vendas - América do Sul
 		        $(".brasil #nome-setor").html('Márcia Daltoé');
-				$(".brasil #email-setor").html('<a href="mailto:marcia@lpexport.net">marcia@LPexport.net</a>');
+				$(".brasil #email-setor").html('<a href="mailto:marcia@lpartners.net">marcia@lpartners.net</a>');
 		        $(".brasil #mobile-setor").html('+55 (47) 3046 0506');
 				$(".brasil .skype-button").attr('href', 'skype:mdaltoe');
 		        break;
@@ -384,37 +384,37 @@ jQuery(document).ready(function($)
 		    // case "7":
 		    //     // International Logistics - Booking/Sea Freight
 		    //     $(".brasil #nome-setor").html('Samuel Fillipe Goncalves');
-			// 	$(".brasil #email-setor").html('samuel@LPexport.net');
+			// 	$(".brasil #email-setor").html('samuel@lpartners.net');
 		    //     $(".brasil #mobile-setor").html('+55 (47) 99992 4245');
-		    //     $(".brasil #skype-setor").html('samuel.LPexport');
-			// 	$(".brasil .skype-button").attr('data-contact-id', 'samuel.LPexport');
+		    //     $(".brasil #skype-setor").html('samuel.lpartners');
+			// 	$(".brasil .skype-button").attr('data-contact-id', 'samuel.lpartners');
 		    //     break;
 
 		    // case "8":
 		    //     // Logistics - Africa, Russia, CIS and East European
 		    //     $(".brasil #nome-setor").html('Fabricio Sasse');
-			// 	$(".brasil #email-setor").html('fabricio@LPexport.net');
+			// 	$(".brasil #email-setor").html('fabricio@lpartners.net');
 		    //     $(".brasil #mobile-setor").html('');
-		    //     $(".brasil #skype-setor").html('fabricio.LPexport');
-			// 	$(".brasil .skype-button").attr('data-contact-id', 'fabricio.LPexport');
+		    //     $(".brasil #skype-setor").html('fabricio.lpartners');
+			// 	$(".brasil .skype-button").attr('data-contact-id', 'fabricio.lpartners');
 		    //     break;
 
 		    // case "9":
 		    //     // Logistics and Documents - Middle East, America and Caribbean
 		    //     $(".brasil #nome-setor").html('Mariana Maestri Becker');
-			// 	$(".brasil #email-setor").html('mariana@LPexport.net');
+			// 	$(".brasil #email-setor").html('mariana@lpartners.net');
 		    //     $(".brasil #mobile-setor").html('');
-		    //     $(".brasil #skype-setor").html('mariana@LPexport.net');
-			// 	$(".brasil .skype-button").attr('data-contact-id', 'mariana.LPexport');
+		    //     $(".brasil #skype-setor").html('mariana@lpartners.net');
+			// 	$(".brasil .skype-button").attr('data-contact-id', 'mariana.lpartners');
 		    //     break;
 
 		    // case "10":
 		    //     // Documents - Africa, Russia, CIS, East European and Asia
 		    //     $(".brasil #nome-setor").html('Daiane Dornelles');
-			// 	$(".brasil #email-setor").html('daiane@LPexport.net');
+			// 	$(".brasil #email-setor").html('daiane@lpartners.net');
 		    //     $(".brasil #mobile-setor").html('');
-			// 	$(".brasil #skype-setor").html('daiane@LPexport.net');
-			// 	$(".brasil .skype-button").attr('data-contact-id', 'daiane.LPexport');
+			// 	$(".brasil #skype-setor").html('daiane@lpartners.net');
+			// 	$(".brasil .skype-button").attr('data-contact-id', 'daiane.lpartners');
 		    //     break;
 
 		    default:
@@ -437,41 +437,41 @@ jQuery(document).ready(function($)
 		        $(".dubai #nome-setor").html('Luiz Pedro Bertuol');
 		        $(".dubai #mobile-setor").html('');
 				// $(".dubai #skype-setor").html(' ');
-				$(".dubai #email-setor").html('<a href="mailto:lpexport@lpexport.net">LPexport@LPexport.net</a>');
-				// $(".hongkong .skype-button").attr('href', 'skype:luizbertuol@lpexport.net');
+				$(".dubai #email-setor").html('<a href="mailto:lpartners@lpartners.net">lpartners@lpartners.net</a>');
+				// $(".hongkong .skype-button").attr('href', 'skype:luizbertuol@lpartners.net');
 		        break;
 
 		    case "22":
 				// Vendas - África e Oriente Médio  // DESABILITADO
 				// $(".dubai #nome-setor").html('Fernando F. Estillac Gomez');
-		  		// $(".dubai #email-setor").html('<a href="mailto:fernando@lpexport.net">fernando@LPexport.net</a>');
+		  		// $(".dubai #email-setor").html('<a href="mailto:fernando@lpartners.net">fernando@lpartners.net</a>');
 		  		// $(".dubai #mobile-setor").html('+971 50 644 3190');
-				// $(".dubai #skype-setor").html('fernando@LPexport.net');
+				// $(".dubai #skype-setor").html('fernando@lpartners.net');
 				// $(".dubai .skype-button").attr('href', 'skype:live:fernando_11327');
 		        break;
 
 		    case "23":
 		        // Vendas - América do Sul e Cingapura
 				$(".dubai #nome-setor").html('Cristiane Gonçalves');
-		        $(".dubai #email-setor").html('<a href="mailto:cristiane@lpexport.net">cristiane@LPexport.net</a>');
+		        $(".dubai #email-setor").html('<a href="mailto:cristiane@lpartners.net">cristiane@lpartners.net</a>');
 		        $(".dubai #mobile-setor").html('');
-				// $(".dubai #skype-setor").html('cristiane.LPexport');
-				$(".dubai .skype-button").attr('href', 'skype:cristiane.lpexport');
+				// $(".dubai #skype-setor").html('cristiane.lpartners');
+				$(".dubai .skype-button").attr('href', 'skype:cristiane.lpartners');
 		        break;
 
 		    case "24":
 		        // Commercial - Russia and Singapore
 		        $(".dubai #nome-setor").html('Gustavo Ribeiro Brandao');
-		        $(".dubai #email-setor").html('<a href="mailto:gustavo@lpexport.net">gustavo@LPexport.net</a>');
+		        $(".dubai #email-setor").html('<a href="mailto:gustavo@lpartners.net">gustavo@lpartners.net</a>');
 		        $(".dubai #mobile-setor").html('+971 56 422 1838');
-				// $(".dubai #skype-setor").html('gustavo.LPexport');
-				$(".dubai .skype-button").attr('href', 'skype:gustavo.lpexport');
+				// $(".dubai #skype-setor").html('gustavo.lpartners');
+				$(".dubai .skype-button").attr('href', 'skype:gustavo.lpartners');
 		        break;
 		        
 		    case "25":
 		        // Commercial - Middle East and Africa
 		        $(".dubai #nome-setor").html('Fernando F. Estillac Gomez');
-		        $(".dubai #email-setor").html('fernando@LPexport.net');
+		        $(".dubai #email-setor").html('fernando@lpartners.net');
 		        $(".dubai #mobile-setor").html('+971 50 644 3190');
 				// $(".dubai #skype-setor").html('<div class="pg-skype><a class="btn-skype" href="skype:fernando11"><i class="fa fa-skype" aria-hidden="true"></i> Skype directly</a></div>"');
 				$(".dubai .skype-button").attr('href', 'skype:fernando_11327');
@@ -480,14 +480,14 @@ jQuery(document).ready(function($)
 		    case "26":
 		        // Financial Dept.
 		        $(".dubai #nome-setor").html('Cristiane Piaseski');
-		        $(".dubai #email-setor").html('<a href="mailto:cristianepiaseski@lpexport.net">cristianepiaseski@LPexport.net</a>');
+		        $(".dubai #email-setor").html('<a href="mailto:cristianepiaseski@lpartners.net">cristianepiaseski@lpartners.net</a>');
 		        $(".dubai #mobile-setor").html('');
-				// $(".dubai #skype-setor").html('cris.LPexport');
-				$(".dubai .skype-button").attr('href', 'cris.lpexport');
+				// $(".dubai #skype-setor").html('cris.lpartners');
+				$(".dubai .skype-button").attr('href', 'cris.lpartners');
 
 		        $(".dubai #setores-complemento").append('<br><strong id="nome-setor">Zenaide Gamba</strong><br>');
-				$(".dubai #setores-complemento").append('<i class="fa fa-phone" aria-hidden="true"></i> <span id="email-setor">E-mail: zenaide@LPexport.net</span><br>');
-				$(".dubai #setores-complemento").append('<i class="fa fa-skype" aria-hidden="true"></i> <span id="skype-setor">Skype: zenaide@LPexport.net</span>');
+				$(".dubai #setores-complemento").append('<i class="fa fa-phone" aria-hidden="true"></i> <span id="email-setor">E-mail: zenaide@lpartners.net</span><br>');
+				$(".dubai #setores-complemento").append('<i class="fa fa-skype" aria-hidden="true"></i> <span id="skype-setor">Skype: zenaide@lpartners.net</span>');
 
 		        break;
 
@@ -512,22 +512,22 @@ jQuery(document).ready(function($)
 		    case "31":
 		    	// General Director
 		        $(".hongkong #nome-setor").html('Queenie Kwong');
-		        $(".hongkong #email-setor").html('<a href="mailto:queenie@lpexport.net">queenie@LPexport.net</a>');
+		        $(".hongkong #email-setor").html('<a href="mailto:queenie@lpartners.net">queenie@lpartners.net</a>');
 		        $(".hongkong #mobile-setor").html('+852 6141 9461');
-				$(".hongkong #skype-setor").html('queenie.LPexport');
-				$(".hongkong .skype-button").attr('href', 'skype:queenie.lpexport');
+				$(".hongkong #skype-setor").html('queenie.lpartners');
+				$(".hongkong .skype-button").attr('href', 'skype:queenie.lpartners');
 		        break;
 
 				// $(".hongkong #setores-complemento").append('<br><strong id="nome-setor">Garfield Lee</strong><br>');
-				// $(".hongkong #setores-complemento").append('<i class="fa fa-mail" aria-hidden="true"></i> <span id="email-setor">E-mail: garfield@LPexport.net</span><br>');
-				// $(".hongkong #setores-complemento").append('<a href="skype:garfield.lpexport" class="skype-button rectangle textonly"><i class="fa fa-skype" aria-hidden="true"></i> <span id="skype-setor">Skype: garfield@LPexport.net</span></a>');
+				// $(".hongkong #setores-complemento").append('<i class="fa fa-mail" aria-hidden="true"></i> <span id="email-setor">E-mail: garfield@lpartners.net</span><br>');
+				// $(".hongkong #setores-complemento").append('<a href="skype:garfield.lpartners" class="skype-button rectangle textonly"><i class="fa fa-skype" aria-hidden="true"></i> <span id="skype-setor">Skype: garfield@lpartners.net</span></a>');
 		
 		    case "32":
 		    	// Commercial Director
 		        $(".hongkong #nome-setor").html('Garfield Lee');
-		        $(".hongkong #email-setor").html('<a href="mailto:garfield@lpexport.net">garfield@LPexport.net</a>');
+		        $(".hongkong #email-setor").html('<a href="mailto:garfield@lpartners.net">garfield@lpartners.net</a>');
 		        $(".hongkong #mobile-setor").html('+852 9456 1203');
-				$(".hongkong #skype-setor").html('garfield@LPexport.net');
+				$(".hongkong #skype-setor").html('garfield@lpartners.net');
 				$(".hongkong .skype-button").attr('href', 'skype:c5a1525e887c8d03');
 				break;
 		        //$("#nome-setor").html('');
@@ -536,41 +536,41 @@ jQuery(document).ready(function($)
 
 		//luciano colonetti
 		// $(".dubai #nome-setor").html('Luciano Colonetti');
-		// $(".dubai #email-setor").html('luciano@LPexport.net');
+		// $(".dubai #email-setor").html('luciano@lpartners.net');
 		
 		// $(".dubai #mobile-setor").html('');
-		// $(".dubai #skype-setor").html('luciano@LPexport.net');
-		// $(".dubai .skype-button").attr('data-contact-id', 'luciano.LPexport');
+		// $(".dubai #skype-setor").html('luciano@lpartners.net');
+		// $(".dubai .skype-button").attr('data-contact-id', 'luciano.lpartners');
 		// break;
 
 		//Rafaek Andreas Guenther
 		// $(".brasil #nome-setor").html('Rafael Andreas Guenther');
-		// $(".brasil #email-setor").html('rafael@LPexport.net');
+		// $(".brasil #email-setor").html('rafael@lpartners.net');
 		// $(".brasil #mobile-setor").html('+55 (47) 99963 0675');
-		// $(".brasil #skype-setor").html('rafael.LPexport');
+		// $(".brasil #skype-setor").html('rafael.lpartners');
 		// break;
 		
 
 
 		// $(".brasil #nome-setor").html('Ana Ligia Hoemke Winkelhaus');
-		// $(".brasil #email-setor").html('analigia@LPexport.net');
+		// $(".brasil #email-setor").html('analigia@lpartners.net');
 		// $(".brasil #mobile-setor").html('+55 (47) 99110 1838');
-		// $(".brasil #skype-setor").html('analigia.LPexport');
-		// $(".brasil .skype-button").attr('data-contact-id', 'analigia.lpexport');
+		// $(".brasil #skype-setor").html('analigia.lpartners');
+		// $(".brasil .skype-button").attr('data-contact-id', 'analigia.lpartners');
 
 
 		// $(".brasil #nome-setor").html('Carolina Leticia Michelon');
-		// $(".brasil #email-setor").html('carolina@LPexport.net');
+		// $(".brasil #email-setor").html('carolina@lpartners.net');
 		// $(".brasil #mobile-setor").html('');
-		// $(".brasil #skype-setor").html('carolina.LPexport');
-		// $(".brasil .skype-button").attr('data-contact-id', 'carolina.LPexport');
+		// $(".brasil #skype-setor").html('carolina.lpartners');
+		// $(".brasil .skype-button").attr('data-contact-id', 'carolina.lpartners');
 		// break;
 
 
 
 	});
 	
-	// if(window.location.pathname == '/clientes/lpexport/historia/pt' || window.location.pathname == '/clientes/lpexport/historia/en' || window.location.pathname == '/clientes/lpexport/historia/es'){
+	// if(window.location.pathname == '/clientes/lpartners/historia/pt' || window.location.pathname == '/clientes/lpartners/historia/en' || window.location.pathname == '/clientes/lpartners/historia/es'){
 	// 	var target = $('#primeiro-passo').offset().top;
 	// 	console.log('entrou aqui rapax');
 	// 	$('html, body').animate({

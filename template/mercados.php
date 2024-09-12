@@ -57,7 +57,7 @@ get_header();
 		
 			<div class="has-text-centered">
 
-				<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@LPexport.net"> commercial@LPexport.net</a></span>
+				<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net"> commercial@lpartners.net</a></span>
 
 			</div>
 

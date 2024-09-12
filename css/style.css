@@ -54,7 +54,7 @@ a {
      -ms-transition: all .2s linear;
      -o-transition: all .2s linear;
 }
-a:hover{color: #096ca4;}
+a:hover{color: #0ea154 ;}
 
 
 h1{
@@ -212,8 +212,8 @@ header .logo{
    padding: 0;
 }
 
-header a.nav-item:hover{color: #096ca4;}
-header .nav-item.current{color: #096ca4;}
+header a.nav-item:hover{color: #0ea154 ;}
+header .nav-item.current{color: #231f20  ;}
 
 header nav ul li ul {
     z-index: 99;
@@ -238,7 +238,7 @@ header nav ul li ul {
 }
 
 header nav ul li ul a{ color: #000; font-size: 15px; font-weight: 700; }
-header nav ul li ul li:hover{ background: #096ca4; }
+header nav ul li ul li:hover{ background: #0ea154 ; }
 header nav ul li ul li:hover a{ color: #FFF; }
 
 header nav ul li:hover > ul { height: auto; opacity: 1; overflow: initial; transform: translateY(0px);}
@@ -317,7 +317,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 
 .header-top #form-top button{
     border: none;
-    background: #096ca4;
+    background: #0ea154 ;
     text-align: center;
     padding: 1px 13px;
     transform: translateY(-3px);
@@ -382,8 +382,8 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     color: #000;
 }
 
-.nav-item a:hover, a.nav-item:hover{ color: #096ca4; }
-.nav-item.current{ color: #096ca4; }
+.nav-item a:hover, a.nav-item:hover{ color: #0ea154 ; }
+.nav-item.current{ color: #231f20  ; }
 
 .nav_fixe ul li ul {
     z-index: 99;
@@ -408,7 +408,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 }
 
 .nav_fixe ul li ul a{ color: #000; font-size: 15px; font-weight: 700; }
-.nav_fixe ul li ul li:hover{ background: #096ca4; }
+.nav_fixe ul li ul li:hover{ background: #0ea154 ; }
 .nav_fixe ul li ul li:hover a{ color: #FFF; }
 
 .nav_fixe ul li:hover > ul { height: auto; opacity: 1; overflow: initial; transform: translateY(0px);}
@@ -523,7 +523,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     justify-content: center;
 }
 
-/* LP TRACKING */
+/* L TRACKING */
 
 .lp_container{
     position: absolute;
@@ -548,7 +548,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 
 .lp_container .lp_top{
     height: 54px;
-    background: #05639b;
+    background: #0ea154;
     color: #FFF;
     line-height: 54px;
     text-align: center;
@@ -566,7 +566,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     left: 45px;
     width: 20px;
     height: 23px;
-    color: #00c0ff;
+    color: #fff;
 }
 
 .lp_container .lp_top .lp_close{
@@ -575,7 +575,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     right: 20px;
     width: 20px;
     height: 23px;
-    color: #00c0ff;
+    color: #fff;
     opacity: 0;
 
     -webkit-transition: all .4s linear;
@@ -591,7 +591,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 .lp_container .lp_body select{ padding: 10px; border: none; background: #FFF; width: 100%; margin-bottom: 14px; outline: none; }
 
 
-/* LP TRACKING - LATERAL */
+/* L TRACKING - LATERAL */
 
 .lp_container_lateral{
     /*display: none;*/
@@ -623,7 +623,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     transform: rotate(-90deg) ;
 
     height: 54px;
-    background: #05639b;
+    background: #0ea154;
     color: #FFF;
     line-height: 54px;
     text-align: center;
@@ -640,7 +640,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     left: 35px;
     width: 20px;
     height: 23px;
-    color: #00c0ff;
+    color: #fff;
 }
 
 .lp_container_lateral .lp_top .lp_close{
@@ -649,7 +649,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     right: 20px;
     width: 20px;
     height: 23px;
-    color: #00c0ff;
+    color: #fff;
     opacity: 0;
 
     -webkit-transition: all .4s linear;
@@ -673,7 +673,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 .chamada-produtos h2{
     font-size: 25px;
     font-weight: 700;
-    color: #b6b6b6;
+    color: #231f20 ;
     text-transform: uppercase;
 
     -webkit-transition: all 0.3s linear;
@@ -706,12 +706,12 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
     opacity: 1;
     border-width: 1px;
 }
-.chamada-produtos .card-home-produtos:hover h2{ color: #096ca4; }
+.chamada-produtos .card-home-produtos:hover h2{ color: #0ea154 ; }
 
 .chamada-produtos .pork .card-icon{ opacity: 0.7; transform: scale(1.6) translateY(-6px); border-width: 1px;}
-.chamada-produtos .card-home-produtos.pork h2{ color: #096ca4; }
+.chamada-produtos .card-home-produtos.pork h2{ color: #0ea154 ; }
 
-.chamada-produtos .card-home-produtos:not(.pork) .botao{ background: #b6b6b6; border-color: #b6b6b6; }
+.chamada-produtos .card-home-produtos:not(.pork) .botao{ background: #231f20 ; border-color: #231f20 ; }
 .card-home-produtos:not(.pork) .botao:hover {background: none;}
 
 
@@ -740,7 +740,7 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 }
 
 .nossa-empresa .atuacao{
-    color: #b6b6b6;
+    color: #231f20 ;
     padding: 5px 0 0 60px;
     font-style: italic;
     font-size: 20px;
@@ -748,14 +748,14 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 }
 
 .nossa-empresa .atuacao .frase{
-    color: #096ca4;
+    color: #0ea154 ;
     font-size: 50px;
     line-height: 45px;
     letter-spacing: 0;    
 }
 
 .nossa-empresa .atuacao .frase strong{
-    color: #096ca4;
+    color: #0ea154 ;
     font-weight: 700;
 }
 
@@ -791,14 +791,14 @@ header .subMenu i{ display: inline-block; margin-top: 3px; transform: scale(.6);
 .nossos-servicos .itens-servicos{
     padding-top: 55px;
     padding-right: 50px;
-    background: #096ca4;
+    background: #0ea154 ;
     color: #a5bcd1;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0;
 }
 
-.nossos-servicos .itens-servicos a{color: #a5bcd1; }
+.nossos-servicos .itens-servicos a{color: #0ea15569; }
 .nossos-servicos .itens-servicos a:hover{color: #FFF; }
 
 .nossos-servicos .informacoes{
@@ -876,11 +876,11 @@ article .hover_gray:hover{opacity: 1;}
 
 .blog_home .column{padding: 15px; }
 .blog_home .item_not a{position: relative; width: 100%; height: 100%; display: block}
-.blog_home .item_not .botao{ font-size: 14px; padding: 0; border-top: 0; border-left: 0; border-right: 0; background: none; color: #096ca4; }
+.blog_home .item_not .botao{ font-size: 14px; padding: 0; border-top: 0; border-left: 0; border-right: 0; background: none; color: #0ea154 ; }
 .blog_home .item_not .botao i{ font-size: 11px; margin-right: 0; }
 
-.blog_home .item_not a:hover .desc_not{color: #096ca4; bottom: 140px; background: none;}
-.blog_home .item_not a:hover .desc_not h1{color: #096ca4; }
+.blog_home .item_not a:hover .desc_not{color: #0ea154 ; bottom: 140px; background: none;}
+.blog_home .item_not a:hover .desc_not h1{color: #0ea154 ; }
 
 
 
@@ -904,11 +904,11 @@ article .hover_gray:hover{opacity: 1;}
     padding-bottom: 30px;
 }
 
-.escritorios .card-escritorio i{ color: #05639b; font-size: 22px; margin-right: 5px;}
+.escritorios .card-escritorio i{ color: #0ea154; font-size: 22px; margin-right: 5px;}
 
 .escritorios .card-escritorio .card-escritorio-top{ background: #f3f3f5; padding: 20px 0 15px; }
-.escritorios .card-escritorio .card-escritorio-top h4{ margin-top: 0; color: #096ca4; font-size: 30px; }
-.escritorios .card-escritorio h5{ color: #00aef0; font-size: 24px; margin: 20px 0 10px;}
+.escritorios .card-escritorio .card-escritorio-top h4{ margin-top: 0; color: #0ea154 ; font-size: 30px; }
+.escritorios .card-escritorio h5{ color: #0ea154; font-size: 24px; margin: 20px 0 10px;}
 
 .escritorios .card-escritorio .card-escritorio-top select{
     font-family: 'Tajawal';
@@ -1086,7 +1086,7 @@ article .hover_gray:hover{opacity: 1;}
 
 .sustentabilidade{padding: 110px 0 100px; color: #000; }
 
-.escritorios-mapa{ background: #05629b; color: #FFF; }
+.escritorios-mapa{ background: #287d47; color: #FFF; }
 .escritorios-mapa h1{color: #FFF;}
 
 .escritorios-mapa .mapa{
@@ -1197,8 +1197,8 @@ button.button, input[type="submit"].button{
 }
 
 .botao{
-    background: #096ca4;
-    border: 2px solid #096ca4;
+    background: #0ea154 ;
+    border: 2px solid #0ea154 ;
     display: inline-block;
     padding: 8px 25px 7px;
     margin: 10px auto;
@@ -1216,7 +1216,7 @@ button.button, input[type="submit"].button{
     -o-transition: all .2s linear;
 }
 
-.botao:hover{ background: none; color: #096ca4; border-color: #096ca4!important; }
+.botao:hover{ background: none; color: #0ea154 ; border-color: #0ea154 !important; }
 .botao.menor{font-size: 16px;}
 .botao i{ line-height: 19px; margin-right: 5px; }
 
@@ -1320,7 +1320,7 @@ article .box_imagem_noticia{
 }
 
 article a{
-    color: #096ca4;
+    color: #0ea154 ;
 
     transition: all .4s ease-out;
     -webkit-transition: all .4s ease-out;
@@ -1407,7 +1407,7 @@ article #galeria a:hover .over { opacity: 1; }
 }
 
 .blog .list-redes .card-icon i{ color: #BBB; font-size: 24px; line-height: 50px;}
-.blog .list-redes .card-icon:hover{ background: #096ca4; border-color: #096ca4; }
+.blog .list-redes .card-icon:hover{ background: #0ea154 ; border-color: #0ea154 ; }
 .blog .list-redes .card-icon:hover i{ color: #FFF; }
 .blog .compartilhe{margin-top: 138px;}
 
@@ -1496,8 +1496,8 @@ article #galeria a:hover .over { opacity: 1; }
 }
 
 .nossos-produtos .categorias-produtos .card-icon img{ opacity: 0.4;}
-.nossos-produtos .categorias-produtos .card-icon.active{ transform: scale(1.6); border-width: 2px; border-color: #05639b;}
-.nossos-produtos .categorias-produtos .card-icon:hover{transform: scale(1.6); border-color: #05639b;}
+.nossos-produtos .categorias-produtos .card-icon.active{ transform: scale(1.6); border-width: 2px; border-color: #0ea154;}
+.nossos-produtos .categorias-produtos .card-icon:hover{transform: scale(1.6); border-color: #0ea154;}
 .nossos-produtos .categorias-produtos .card-icon.active img{ opacity: 1; }
 .nossos-produtos .categorias-produtos a:last-child .card-icon{margin-bottom: 0;}
 
@@ -1663,7 +1663,7 @@ article #galeria a:hover .over { opacity: 1; }
     padding: 1px 11px;
     margin-bottom: 0;
     display: inline-block;
-    border: 1px solid #096ca4;
+    border: 1px solid #0ea154 ;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -1672,7 +1672,7 @@ article #galeria a:hover .over { opacity: 1; }
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
-    color: #096ca4;
+    color: #0ea154 ;
     transition: all .2s linear;
     touch-action: manipulation;
     user-select: none;
@@ -1682,7 +1682,7 @@ article #galeria a:hover .over { opacity: 1; }
 .pagination span.inactive:hover { background: none; }
 .pagination span a {
     text-decoration: none;
-    color: #096ca4;
+    color: #0ea154 ;
 }
 .pagination ul {
     padding: 0;
@@ -1712,12 +1712,12 @@ article #galeria a:hover .over { opacity: 1; }
     user-select: none;
 }
 .pagination ul li a:hover {
-    border: 1px solid #096ca4;
-    color: #096ca4;
+    border: 1px solid #0ea154 ;
+    color: #0ea154 ;
 }
 .pagination ul li.active a {
-    border: 1px solid #096ca4;
-    color: #096ca4;
+    border: 1px solid #0ea154 ;
+    color: #0ea154 ;
 }
 
 /*.produtos .busca_produtos{
@@ -1885,13 +1885,13 @@ article #galeria a:hover .over { opacity: 1; }
 }
 .produto .descricao .desc .categoria {
     padding: 2px 0 2px 10px;
-    border-left: 3px solid #07b2ea;
+    border-left: 3px solid #0ea154 ;
     text-transform: uppercase;
 }
 .produto .descricao .desc .categoria h5 {
     font-size: 26px;
     margin: 0 0 2px;
-    color: #07b2ea;
+    color: #0ea154 ;
 }
 .produto .descricao .desc .categoria small { font-size: 90%; letter-spacing: 2px;}
 
@@ -1941,11 +1941,11 @@ article #galeria a:hover .over { opacity: 1; }
 }
 .produto .galeria .gal .pika-stage .pika-textnav a.next {
     right: 0;
-    background: url(../img/seta-right.png) center center no-repeat #096ca4;
+    background: url(../img/seta-right.png) center center no-repeat #0ea154 ;
 }
 .produto .galeria .gal .pika-stage .pika-textnav a.previous {
     left: 0;
-    background: url(../img/seta-left.png) center center no-repeat #096ca4;
+    background: url(../img/seta-left.png) center center no-repeat #0ea154 ;
 }
 .produto .galeria .gal .jcarousel-container {
     position: relative;
@@ -1994,7 +1994,7 @@ article #galeria a:hover .over { opacity: 1; }
 
 .item-busca{padding: 10px; background: #f5f5f5;}
 
-.select:after{ border-color: #05639b; }
+.select:after{ border-color: #0ea154; }
 .select select:focus, .select select.is-focused, .select select:active, .select select.is-active{ border-color: #000; }
 
 
@@ -2009,14 +2009,13 @@ article #galeria a:hover .over { opacity: 1; }
 .nossos-servicos .list-servicos{ background: url(../img/bg_bolinha_vert.jpg) center top repeat-y; margin-top: 25px;}
 
 .nossos-servicos .list-servicos .card-icon{
-    border: 1px solid #096ca4;
     border-radius: 50%;
     height: 60px;
     width: 60px;
     margin: 0 auto 28px;
     text-align: center;
     padding: 12px 10px 0;
-    background: #FFF;
+    background: #c2c2c2;
 
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
@@ -2025,13 +2024,13 @@ article #galeria a:hover .over { opacity: 1; }
     transition: all 0.3s linear;
 }
 
-.nossos-servicos .list-servicos .card-icon.active{ background: #096ca4; }
-.nossos-servicos .list-servicos .card-icon:hover{ background: #096ca4; }
+.nossos-servicos .list-servicos .card-icon.active{ background: #0ea154 ; }
+.nossos-servicos .list-servicos .card-icon:hover{ background: #0ea154 ; }
 
 
-.secao-servicos{ background: #096ca4; padding: 50px 0;}
+.secao-servicos{ background: #0ea154 ; padding: 50px 0;}
 .secao-servicos h4{color: #FFF; margin: 0px;}
-.secao-servicos .column{border-left: 1px solid #308fc5; padding: 0;}
+.secao-servicos .column{border-left: 1px solid #fff; padding: 0;}
 .secao-servicos .column:first-child{border-left: none;}
 
 
@@ -2054,14 +2053,14 @@ article #galeria a:hover .over { opacity: 1; }
     margin: -25px 0 25px;
 }
 .cotacao .list-moedas .card-icon{
-    border: 1px solid #096ca4;
+    border: 1px solid #0ea154 ;
     border-radius: 50%;
     height: 60px;
     width: 60px;
     margin: 0 auto 28px;
     text-align: center;
     padding: 12px 10px 0;
-    background: #FFF;
+    background: #dadada;
 
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
@@ -2070,23 +2069,23 @@ article #galeria a:hover .over { opacity: 1; }
     transition: all 0.3s linear;
 }
 
-.cotacao .list-moedas .card-icon i {color: #66cff7;}
+.cotacao .list-moedas .card-icon i {color: white;}
 
- .list-moedas .card-icon.active{ background: #096ca4; }
- .list-moedas .card-icon.active i {color: #66cff7}
- .list-moedas .card-icon:hover{ background: #096ca4; color: #66cff7; }
+ .list-moedas .card-icon.active{ background: #0ea154 ; }
+ .list-moedas .card-icon.active i {color: white}
+ .list-moedas .card-icon:hover{ background: #0ea154 ; color: white; }
 
 
-.secao-moedas{ background: #096ca4; padding: 50px 0;}
+.secao-moedas{ background: #0ea154 ; padding: 50px 0;}
 .secao-moedas h4{color: #FFF; margin: 0px;}
-.secao-moedas .column{border-left: 1px solid #308fc5; padding: 0;}
+.secao-moedas .column{border-left: 1px solid #0ea154; padding: 0;}
 .secao-moedas .column:first-child{border-left: none;}
 
 /* ============== PÁGINA MOEDAS (COTACAO) ============== */
     .info-moeda{display:flex; justify-content: space-around; margin-bottom: 50px;}
 
-    .container-moeda .table thead {background-color: #096ca5; color: #f5faf4;}
-    .container-moeda .table thead tr:hover {background-color: #096ca5!important; color: #f5faf4!important;}
+    .container-moeda .table thead {background-color: #0ea154; color: #f5faf4;}
+    .container-moeda .table thead tr:hover {background-color: #0ea154!important; color: #f5faf4!important;}
     .container-moeda .table thead tr th {color: #f5faf4;}
     .container-moeda .table tbody {background-color: #efefef;}
     .container-moeda .table td, .container-moeda .table th {text-align: center;}
@@ -2140,7 +2139,7 @@ article #galeria a:hover .over { opacity: 1; }
 .pg-layer-head {
     width: 100%;
     height: 54px;
-    background: #05639b;
+    background: #0ea154;
     color: #fff;
     font-size: 25px;
     display: flex;
@@ -2157,7 +2156,7 @@ article #galeria a:hover .over { opacity: 1; }
     font-size: 19px;
     letter-spacing: 0;
     font-family: 'Tajawal', 'sans-serif';
-    color: #05639b;
+    color: #0ea154;
     font-weight: bold;
 }
 .pg-layer-body .pg-list-item {
@@ -2185,7 +2184,7 @@ article #galeria a:hover .over { opacity: 1; }
     font-size: 15px;
 }
 
-.pg-mail span, .pg-telefone span {color: #05639b; font-weight: bold;}
+.pg-mail span, .pg-telefone span {color: #0ea154; font-weight: bold;}
 
 .pg-skype {
     width: 150px;
@@ -2228,14 +2227,14 @@ footer{
 footer h3{
     font-size: 17px;
     line-height: 17px;
-    color: #096ca4;
+    color: #0ea154 ;
     margin-bottom: 20px;
     font-weight: 700;
 }
 
 footer .fone{
     font-size: 20px;
-    color: #096ca4;
+    color: #0ea154 ;
     letter-spacing: 2px;
     margin-bottom: 30px;
     font-weight: 900;
@@ -2243,7 +2242,7 @@ footer .fone{
 }
 
 footer a{color: #565656;}
-footer a:hover{color: #096ca4; }
+footer a:hover{color: #0ea154 ; }
 footer .link{display: block;}
 
 
@@ -2270,7 +2269,7 @@ footer .container_bg{
 }
 
 footer .direitos{
-    color: #096ca4;
+    color: #0ea154 ;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2324,7 +2323,7 @@ footer .social a{
     text-align: center;
     margin: 0 7px;
     text-indent: 0px;
-    color: #096ca4;
+    color: #0ea154 ;
     font-size: 20px;
     line-height: 32px;
 }
@@ -2341,7 +2340,7 @@ footer .logo-footer{width: 180px;}
 /* QUAX ASSINATURA */
 
 .quax-assinatura{
-    border-bottom: 8px solid #05639b;
+    border-bottom: 8px solid #0ea154;
     position: relative;
     margin-top: 0px;
     background: #f3f3f5;
@@ -2370,7 +2369,7 @@ footer .logo-footer{width: 180px;}
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
 
-    border-bottom: 40px solid #05639b;
+    border-bottom: 40px solid #0ea154;
 }
 
 /* FIM QUAX ASSINTAURA */
@@ -2393,7 +2392,7 @@ footer .logo-footer{width: 180px;}
     background: none;
     width: 100%;
     outline: none;
-    color: #05639b;
+    color: #0ea154;
     padding: 5px 0 5px 10px;
     line-height: 30px;
 }
@@ -2404,8 +2403,8 @@ footer .logo-footer{width: 180px;}
     resize: none;
 }
 #contato button {
-    background: #096ca4;
-    border: 2px solid #096ca4;
+    background: #0ea154 ;
+    border: 2px solid #0ea154 ;
     color: #FFF;
     text-transform: uppercase;
     padding: 7px 18px 7px;
@@ -2418,7 +2417,7 @@ footer .logo-footer{width: 180px;}
     -ms-transition: all .2s linear;
     -o-transition: all .2s linear;
 }
-#contato button:hover { background: #FFF; color: #096ca4; }
+#contato button:hover { background: #FFF; color: #0ea154 ; }
 
 #contato .select{width: 100%;}
 #contato .select select{min-width: 100%; font-size: 17px; font-family: "Tajawal"; padding: 5px 10px; border-color: #CCC; }
@@ -2672,7 +2671,7 @@ footer .logo-footer{width: 180px;}
 
 
     
-    /* LP TRACKING */
+    /* L TRACKING */
     .lp_container{margin-left: 190px;}
 
 
@@ -2779,7 +2778,7 @@ footer .logo-footer{width: 180px;}
         opacity: 0.7;
     }
 
-    .mvv {background: #05639b;}
+    .mvv {background: #0ea154;}
 
     p{font-size: 16px;}
     .wrap, .wrap.medium, .wrap.menor{width: 100%;}
@@ -2792,9 +2791,9 @@ footer .logo-footer{width: 180px;}
     .hamburger:hover, .nav-toggle:hover{}
     .hamburger span:nth-child(1), .nav-toggle span:nth-child(1){margin-top: -8px;}
     .hamburger span:nth-child(3), .nav-toggle span:nth-child(3){margin-top: 6px;}
-    .hamburger span, .nav-toggle span{height: 2px; width: 25px; margin-left: -13px; background: #096ca4}
-    .hamburger.is-active span:nth-child(1), .is-active.nav-toggle span:nth-child(1){margin-left: -8px; margin-top: -9px; background: #096ca4}
-    .hamburger.is-active span:nth-child(3), .is-active.nav-toggle span:nth-child(3){margin-top: 8px; margin-left: -8px; background: #096ca4}
+    .hamburger span, .nav-toggle span{height: 2px; width: 25px; margin-left: -13px; background: #0ea154 }
+    .hamburger.is-active span:nth-child(1), .is-active.nav-toggle span:nth-child(1){margin-left: -8px; margin-top: -9px; background: #0ea154 }
+    .hamburger.is-active span:nth-child(3), .is-active.nav-toggle span:nth-child(3){margin-top: 8px; margin-left: -8px; background: #0ea154 }
 
 
     /* HEADER TOP */
@@ -2833,7 +2832,7 @@ footer .logo-footer{width: 180px;}
     }
     header .logo{background: url(../img/lp-export-logo-atual.png); background-size: cover; width: 134px; height: 41px; margin-left: 2px; margin-top: 14px; margin-bottom: 0px;}
     header .nav-menu{display: none; opacity: 0;}
-    header .nav-item.current{background: #0087d3; color: #FFF;}
+    header .nav-item.current{background: #231f20 ; color: #FFF;}
 
     header .nav-item:after{display: none;}
     header a.nav-item:hover{color: #FFF;}
@@ -2889,7 +2888,7 @@ footer .logo-footer{width: 180px;}
 
 
     .menu_fixo{display: none !important;}
-    .nav-menu .nav-item{padding: 30px 0 28px; justify-content: center; background: #096ca4; color: #FFF; font-size: 16px; margin: 0; border-top: 1px solid #333;}
+    .nav-menu .nav-item{padding: 30px 0 28px; justify-content: center; background: #0ea154 ; color: #FFF; font-size: 16px; margin: 0; border-top: 1px solid #333;}
 
     .menu-mobile-ipad{display: block;}
     .menu-desktop-ipad-land{display: none;}
@@ -2919,7 +2918,7 @@ footer .logo-footer{width: 180px;}
     .banner_sub{padding-top: 65px;}
 
 
-    /* LP TRACKING */
+    /* L TRACKING */
     .lp_container{display: none;}
 
 
@@ -3078,7 +3077,7 @@ footer .logo-footer{width: 180px;}
 
     .header-top{display: none;}
     .waypoint{opacity: 1}
-    .quax-assinatura {border-bottom: 45px solid #05639b;}
+    .quax-assinatura {border-bottom: 45px solid #0ea154;}
 
     h1{font-size: 24px; margin: 10px 0; line-height: 28px; letter-spacing: 3px;}
     h2{font-size: 17px; line-height: 25px;}
@@ -3121,14 +3120,14 @@ footer .logo-footer{width: 180px;}
     .hamburger, .nav-toggle{top: 14px; right: 5px;}
     .hamburger span:nth-child(1), .nav-toggle span:nth-child(1){margin-top: -8px;}
     .hamburger span:nth-child(3), .nav-toggle span:nth-child(3){margin-top: 6px;}
-    .hamburger span, .nav-toggle span{height: 2px; width: 18px; margin-left: -9px; background: #096ca4}
-    .hamburger.is-active span:nth-child(1), .is-active.nav-toggle span:nth-child(1){background: #096ca4}
-    .hamburger.is-active span:nth-child(3), .is-active.nav-toggle span:nth-child(3){margin-top: 4px; background: #096ca4}
+    .hamburger span, .nav-toggle span{height: 2px; width: 18px; margin-left: -9px; background: #0ea154 }
+    .hamburger.is-active span:nth-child(1), .is-active.nav-toggle span:nth-child(1){background: #0ea154 }
+    .hamburger.is-active span:nth-child(3), .is-active.nav-toggle span:nth-child(3){margin-top: 4px; background: #0ea154 }
     .nav-menu.is-active{display: block; position: absolute; top: 70px; width: 100%; }
     header .nav-menu{opacity: 0; display: none; top: 75px; position: absolute; width: 100%;}
     header .nav-item{padding:0; font-size: 18px;}
-    header .nav-item.current{background:#0087d3; color:#FFF;}
-    .nav-menu .nav-item{padding: 16px 0 16px; justify-content: center; background:#096ca4; color:#FFF; margin: 0; border-bottom: 1px solid #333; font-weight: bold; font-size: 16px;}
+    header .nav-item.current{background:#231f20 ; color:#FFF;}
+    .nav-menu .nav-item{padding: 16px 0 16px; justify-content: center; background:#0ea154 ; color:#FFF; margin: 0; border-bottom: 1px solid #333; font-weight: bold; font-size: 16px;}
     .nav-menu .nav-item a.nav-item {width: 100%;}
     header a.nav-item:hover{color: #FFF;}
     header .nav-item:after{display: none;}
@@ -3214,7 +3213,7 @@ footer .logo-footer{width: 180px;}
     .banner_inf_center{font-size: 14px; top: 33%}
 
 
-    /* LP TRACKING */
+    /* L TRACKING */
     .lp_container{margin-left: -155px; height: 320px; bottom: -276px;}
     .lp_container .lp_top{height: 44px;font-size: 22px; line-height: 46px;}
     .lp_container .lp_top .lp_globe{top: 12px;}
@@ -3270,8 +3269,8 @@ footer .logo-footer{width: 180px;}
 
     .timeline{background: none; }
     .timeline .column{margin-bottom: 50px;}
-    .mvv{ background: #04639b; }
-    .nossa-historia {background: #04639b;}
+    .mvv{ background: #0ea154 ; }
+    .nossa-historia {background: #0ea154 ;}
     .diferenciais{ background: none; }
 
     .escritorios-mapa .mapa{ background-size: cover; height: 186px; font-size: 12px; letter-spacing: 0; }
@@ -3291,7 +3290,7 @@ footer .logo-footer{width: 180px;}
     .nossos-servicos.sub h1 {letter-spacing: 0; font-size: 30px;}
     .nossos-servicos.sub h2{display: none; }
     .nossos-servicos .list-servicos{ display: none; }
-    .secao-servicos .column{border: none; border-bottom: 1px solid #308fc5; padding: 30px 0;}
+    .secao-servicos .column{border: none; border-bottom: 1px solid #0ea154 ; padding: 30px 0;}
 
 
 

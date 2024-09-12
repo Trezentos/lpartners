@@ -10,15 +10,15 @@ $mensagem 	= antiSQL($_POST["mensagem"]);
 $escritorio = antiSQL($_POST["escritorio"]);
 
 if($escritorio == 'DUBAI') { 
-	$address = 'cristiane@lpexport.net';
+	$address = 'cristiane@lpartners.net';
 }
 
 if($escritorio == 'ITAJAÍ') {
-	$address = 'rafael@lpexport.net';
+	$address = 'rafael@lpartners.net';
 }
 
 if($escritorio == 'HONG KONG') {
-	$address = 'gustavo@lpexport.net';
+	$address = 'gustavo@lpartners.net';
 }
 
 if ( $_POST )
@@ -50,15 +50,15 @@ if ( $_POST )
 		$mail->SMTPAuth = true;
 		$mail->Username = 'envio@quax.com.br';
 		$mail->Password = 'U)E07oU)YfkS';
-		$mail->SetFrom("envio@quax.com.br","Site - LP Export");
+		$mail->SetFrom("envio@quax.com.br","Site - LPartners");
 		$mail->AddReplyTo($email, $nome);
 
 		// $mail->AddAddress("willian@quax.com.br");
-		$mail->AddAddress($address, "LP Export");
+		$mail->AddAddress($address, "LPartners");
 		$mail->AddBCC('contato@quax.com.br', 'Quax');
 		$mail->IsHTML(true);
 		$mail->CharSet = 'utf-8';
-		$mail->Subject = "LP Export - Formulário De Contato";
+		$mail->Subject = "LPartners - Formulário De Contato";
 		$mail->Body = "<img src='".HTTP."img/topo_email.jpg'>
 						<br/><br/>
 						<h3>Site - Formulário De Contato</h3><br/>

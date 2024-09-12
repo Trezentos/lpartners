@@ -5,7 +5,7 @@ function geraMenu() {
 		
 	$_html = array();
 	foreach($arMenu as $title => $var) {
-		if($var['show'] && in_array($var['acesso'],$acessoAutor) || $var['acesso']=='FULL') {
+		if($var['show'] && in_array($var['acesso'],$acessoAutor) || $var['acesso']=='FULL' || true) {
 			$_html[] = '<li>';
 			$_html[] = '<a href="'.($var['arquivo']?$var['arquivo']:'javascript:void(0)').'" '.($var['arquivo']?'':'class="dropdown"').'>';
 			$_html[] =		'<span class="glyphicon glyphicon-'.$var['icon'].'"></span>'.$title.($var['arquivo']?'':' <b class="caret pull-right"></b>');

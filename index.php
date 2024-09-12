@@ -69,9 +69,9 @@ if(is_array($returnURL)&&count($returnURL>0))
 			$permalink = $pagina->permalink;
 			$conteudo  = $pagina->conteudo;
 			//$keywords = $pagina->keywords;
-			$keywords  = "LP Export Importação Exportação Logística";
+			$keywords  = "LPartners Importação Exportação Logística";
 			//$description = $pagina->description;
-			$description = "A LP Export atua na exportação de carnes congeladas (bovina, suina e aves) para mais de 50 países.";
+			$description = "A LPartners atua na exportação de carnes congeladas (bovina, suina e aves) para mais de 50 países.";
 
 			if(strlen($pagina->arquivo)>0) require(TEMPLATE.$pagina->arquivo);
 			else {

@@ -1,34 +1,15 @@
 <?php
-
 /**
  * Classe para controle de login e permissões de usuário
  * 
- * (PHP 4, PHP 5)
+ * (PHP 5, 7)
  *
- * @author Thiago Belem <contato@thiagobelem.net>
- * @link http://blog.thiagobelem.net/
- * 
  * @version v1.1
  * @todo Criar a funcionalidade "Esqueci minha senha"
  * 
  */
 class Usuario {
-    /**
-     * Nome do banco de dados onde está a tabela de usuários
-     * 
-     * @var string
-     * @since v1.0
-     */
-    var $bancoDeDados = 'meu_site';
-    
-    /**
-     * Nome da tabela de usuários
-     * 
-     * @var string
-     * @since v1.0
-     */
-    var $tabelaUsuarios = 'usuarios';
-    
+
     /**
      * Nomes dos campos onde ficam o usuário, a senha e o e-mail de cada usuário
      * 
@@ -40,8 +21,9 @@ class Usuario {
      * @since v1.0
      */
     var $campos = array(
-        'usuario' => 'usuario',
-        'senha' => 'senha'
+        'usuario'   => 'usuario',
+        'categoria' => 'categoria',
+        'senha'     => 'senha'
     );
     
     /**
@@ -51,7 +33,7 @@ class Usuario {
      * @var mixed
      * @since v1.0
      */
-    var $dados = array('id', 'nome_completo', 'usuario', 'email', 'acesso');
+    var $dados = array('id', 'nome_completo', 'usuario', 'email', 'acesso', 'categoria');
     
     /**
      * Inicia a sessão se necessário?
@@ -136,8 +118,8 @@ class Usuario {
      */
     function codificaSenha($senha) {
         // Altere aqui caso você use, por exemplo, o MD5:
-        // return md5($senha);
         return md5($senha);
+        // return md5(HASH.$senha);
     }
     
     /**
@@ -151,50 +133,64 @@ class Usuario {
      * @param string $senha A senha que será validada
      * @return boolean Se o usuário existe
      */
-    function validaUsuario($usuario, $senha) {
+    function validaUsuario($usuario, $senha, $tipo="admin") {
 		global $db, $tables;
 		
-        $senha = $this->codificaSenha($senha);
-        
+        // $senha = $this->codificaSenha($senha);
+
         // Filtra os dados?
         if ($this->filtraDados) {
-            $usuario = mysql_escape_string($usuario);
-            $senha = mysql_escape_string($senha);
+            $usuario = $db->escape($usuario);
+            $senha   = $db->escape($senha);
         }
         
+        
+        // $hash = password_hash($senha,PASSWORD_DEFAULT);
+        // password_verify($senha,$hash)
+
+
         // Os dados são case-sensitive?
         $binary = ($this->caseSensitive) ? 'BINARY' : '';
 
-        // Procura por usuários com o mesmo usuário e senha
-        $sql = "SELECT COUNT(*) AS total FROM ".$tables['USUARIOS']." WHERE {$binary} `{$this->campos['usuario']}` = '{$usuario}' AND {$binary} `{$this->campos['senha']}` = '{$senha}' LIMIT 1";
+
+        if($tipo=="admin"){
+            // Procura por usuários com o mesmo usuário
+            $sql = "SELECT senha FROM ".$tables['USUARIOS']." WHERE {$binary} `{$this->campos['usuario']}` = '{$usuario}' LIMIT 1";
+        }else{
+            // Procura por usuários com o mesmo usuário e senha
+            $sql = "SELECT senha FROM ".$tables['USUARIOS']." WHERE {$binary} `{$this->campos['email']}` = '{$usuario}' LIMIT 1";
+        }
+
 		$query = $db->get_row($sql);
-		
+
         //$db->debug();
 
-		if($query) {
-			$total = $query->total;
+		if($query)
+        {
+			$hash = $query->senha;
 		} else return false;
 
-        return ($total == 1) ? true : false;
+        return (password_verify($senha,$hash)) ? true : false;
     }
     
     /**
-     * Tenta logar um usuário no sistema salvando seus dados na sessão e cookies
-     * 
-     * @access public
-     * @since v1.0
-     * @uses Usuario::validaUsuario()
-     * @uses Usuario::lembrarDados()
-     *
-     * @param string $usuario O usuário que será logado
-     * @param string $senha A senha do usuário
-     * @param boolean $lembrar Salvar os dados em cookies? (Lembrar minha senha)
-     * @return boolean Se o usuário foi logado
-     */
-    function logaUsuario($usuario, $senha, $lembrar = false) {  
+    * Tenta logar um usuário no sistema salvando seus dados na sessão e cookies
+    * 
+    * @access public
+    * @since v1.0
+    * @uses Usuario::validaUsuario()
+    * @uses Usuario::lembrarDados()
+    *
+    * @param string $usuario O usuário que será logado
+    * @param string $senha A senha do usuário
+    * @param boolean $lembrar Salvar os dados em cookies? (Lembrar minha senha)
+    * @return boolean Se o usuário foi logado
+    */
+    function logaUsuario($usuario, $senha, $lembrar=false, $tipo="admin")
+    {
 		global $db, $tables;
         // Verifica se é um usuário válido
-        if ($this->validaUsuario($usuario, $senha))
+        if ($this->validaUsuario($usuario, $senha, $tipo))
         {
 
             // Inicia a sessão?
@@ -202,18 +198,24 @@ class Usuario {
                 session_start();
             }
         
-            // Filtra os dados?
-            if ($this->filtraDados) {
-                $usuario = mysql_real_escape_string($usuario);
-                $senha = mysql_real_escape_string($senha);
-            }
-            
             // Traz dados da tabela?
-            if ($this->dados != false) {
-                // Adiciona o campo do usuário na lista de dados
-                if (!in_array($this->campos['usuario'], $this->dados)) {
-                    $this->dados[] = 'usuario';
+            if ($this->dados != false)
+            {
+                if($tipo=="admin")
+                {
+                    // Adiciona o campo do usuário na lista de dados
+                    if (!in_array($this->campos['usuario'], $this->dados)) {
+                        $this->dados[] = 'usuario';
+                    }
                 }
+                else
+                {
+                    // Adiciona o campo do usuário na lista de dados
+                    if (!in_array($this->campos['email'], $this->dados)) {
+                        $this->dados[] = 'usuario';
+                    }
+                }
+                
             
                 // Monta o formato SQL da lista de campos
                 $dados = '`' . join('`, `', array_unique($this->dados)) . '`';
@@ -221,11 +223,24 @@ class Usuario {
                 // Os dados são case-sensitive?
                 $binary = ($this->caseSensitive) ? 'BINARY' : '';
 
-                // Consulta os dados
-                $sql = "SELECT {$dados}
+               
+                if($tipo=="admin")
+                {
+                     // Consulta os dados
+                    $sql = "SELECT {$dados}
                         FROM ".$tables['USUARIOS']."
                         WHERE {$binary} `{$this->campos['usuario']}` = '{$usuario}'";
-                $query = mysql_query($sql);
+                }
+                else
+                {
+                    $sql = "SELECT {$dados}
+                        FROM ".$tables['USUARIOS']."
+                        WHERE {$binary} `{$this->campos['email']}` = '{$usuario}'";
+                }
+
+
+                $query = $db->get_row($sql);
+                $db->debug();
                 
                 // Se a consulta falhou
                 if (!$query) {
@@ -234,9 +249,7 @@ class Usuario {
                     return false;
                 } else {
                     // Traz os dados encontrados para um array
-                    $dados = mysql_fetch_assoc($query);
-                    // Limpa a consulta da memória
-                    mysql_free_result($query);
+                    $dados = $query;
                     
 	                // Passa os dados para a sessão
                     foreach ($dados AS $chave=>$valor) {
@@ -257,14 +270,15 @@ class Usuario {
                 $valor = sha1($valor);
                 
                 // Cria o cookie
-                setcookie($this->prefixoChaves . 'token', $valor, 0, $this->cookiePath);
+                setcookie($this->prefixoChaves . 'token', $valor, time()+60*60*12, $this->cookiePath);
             }
             
             // Salva os dados do usuário em cookies? ("Lembrar minha senha")
             if ($lembrar) $this->lembrarDados($usuario, $senha);
             
             // Fim da verificação, retorna true
-			$db->insert($tables['ACESSOS'],array('id_usuario'=>$dados['id'],'data_acesso'=>date("Y-m-d H:i:s"),'ip'=>$_SERVER['REMOTE_ADDR']));
+            $db->insert($tables['ACESSOS'],array('id_usuario'=>$dados->id,'data_acesso'=>date("Y-m-d H:i:s"),'ip'=>$_SERVER['REMOTE_ADDR']));
+            
             return true;
             
                         
@@ -284,7 +298,7 @@ class Usuario {
      * @param boolean $cookies Verifica também os cookies?
      * @return boolean Se há um usuário logado
      */
-    function usuarioLogado($cookies = true) {
+    function usuarioLogado($cookies = true, $tipo = "admin") {
         // Inicia a sessão?
         if ($this->iniciaSessao AND !isset($_SESSION)) {
             session_start();
@@ -304,16 +318,27 @@ class Usuario {
                 return false;
             }
         }
+
         
         // Faz a verificação do cookie?
-        if ($this->cookie) {
+        if ($this->cookie)
+        {
             // Verifica se o cookie não existe
             if (!isset($_COOKIE[$this->prefixoChaves . 'token'])) {
                 $this->erro = 'Não há usuário logado';
                 return false;
             } else {
                 // Monta o valor do cookie
-                $valor = join('#', array($_SESSION[$this->prefixoChaves . 'usuario'], $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT']));
+               
+                if($tipo == "admin")
+                {
+                    $valor = join('#', array($_SESSION[$this->prefixoChaves . 'usuario'], $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT']));
+                }
+                else
+                {
+                    $valor = join('#', array($_SESSION[$this->prefixoChaves . 'email'], $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT']));
+                }
+                
     
                 // Encripta o valor do cookie
                 $valor = sha1($valor);
@@ -325,6 +350,8 @@ class Usuario {
                 }
             }
         }
+
+
         
         // A sessão e o cookie foram verificados, há um usuário logado
         return true;
@@ -452,6 +479,7 @@ class Usuario {
         }
     }
 	
+
 	function getCategoria() {
 		return $_SESSION[$this->prefixoChaves."categoria"];
 	}
@@ -459,9 +487,13 @@ class Usuario {
 	function getId() {
 		return $_SESSION[$this->prefixoChaves."id"];
 	}
+
+    function getUser() {
+        return $_SESSION[$this->prefixoChaves."usuario"];
+    }
 	
 	function getAutor() {
-		return reset(explode(" ",$_SESSION[$this->prefixoChaves."nome_completo"]));
+		return $_SESSION[$this->prefixoChaves."nome_completo"];
 	}
 	
 	function getAcesso() {
@@ -469,22 +501,23 @@ class Usuario {
 	}
 	
 	function acessoPagina() {
-		global $list_acess_file;
+		global $LIST_ACCESS_FILE;
 		
 		$authorization = $this->getAcesso();
-		$this_file = pathinfo($_SERVER['SCRIPT_NAME'], PATHINFO_BASENAME);
+        $this_file = returnFilePath('admin');
 		
-		foreach($authorization as $authorized) {
-			if(in_array($this_file,$list_acess_file[$authorized])) $licensed++;
+		foreach($authorization as $authorized)
+        {
+            if( !is_array( $LIST_ACCESS_FILE[$authorized] ) ) continue;
+            
+			if(in_array($this_file,$LIST_ACCESS_FILE[$authorized])) $licensed++;
 			else $unauthorized++;		
 		}
 		
 		if($licensed>0) return true;
 		else {
-			if(in_array($this_file,$list_acess_file['FULL'])) return true;
+			if(in_array($this_file,$LIST_ACCESS_FILE['FULL'])) return true;
 			else return $this_file;
 		}
 	}
 }
-
-?>

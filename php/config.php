@@ -28,20 +28,20 @@ if(LOCALHOST) {
 	define('DB_USER','root');
 	define('DB_PASS','');
 	define('DB_HOST','localhost');
-	define('DB_NAME','lpexport');
+	define('DB_NAME','lppartners');
 	define('PREFIX','adm_');
 
 	/* PATH */
-	define('ROOT',$_SERVER['DOCUMENT_ROOT'].'/lpexport/');
-	define('HTTP','https://'.$_SERVER['HTTP_HOST'].'/lpexport/');
+	define('ROOT',$_SERVER['DOCUMENT_ROOT'].'/lpartners/');
+	define('HTTP','http://'.$_SERVER['HTTP_HOST'].'/lpartners/');
 	define('SHIFT_NUM', 1);
 } else {
 
 	/* DATABASE */
-	define('DB_USER','lpexport_site');
-	define('DB_PASS','4MXDrUjgYQ*w');
+	define('DB_USER','lpartners_site');
+	define('DB_PASS','dwODgx(PU+$q');
 	define('DB_HOST','localhost');
-	define('DB_NAME','lpexport_site');
+	define('DB_NAME','lpartners_site');
 	define('PREFIX','adm_');
 
 	/* PATH */
@@ -50,7 +50,7 @@ if(LOCALHOST) {
 	define('SHIFT_NUM', 0);
 
 	/* ANALYTICS */
-	define('ANALYTICS', 'UA-85542000-00');
+	define('ANALYTICS', '');
 }
 
 
@@ -80,9 +80,9 @@ define('ZERO_PAD','6');
 
 
 // INFOS
-$empresa    = 'LP Export';
+$empresa    = 'LPartners';
 $telefone_site = '47 3344.0000';
-$dominio    = 'lpexport.net';
+$dominio    = 'lpartners.net';
 $homePages  = array('',' ','index','index.php','index.html','home','home.php','home.html');
 $meses	    = array("JANEIRO","FEVEREIRO","MARÇO","ABRIL","MAIO","JUNHO","JULHO","AGOSTO","SETEMBRO","OUTUBRO","NOVEMBRO","DEZEMBRO");
 $meses_abr  = array("JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ");

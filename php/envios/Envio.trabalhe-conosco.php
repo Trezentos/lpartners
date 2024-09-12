@@ -49,7 +49,7 @@ if ( $_POST )
 		$mail->Sender 	= $_POST["email"];
 		$mail->FromName = $_POST["nome"];
 
-		$mail->AddAddress('luciano@lpexport.net', 'Lp Export');
+		$mail->AddAddress('luciano@lpartners.net', 'LPartners');
 		$mail->AddBCC('contato@quax.com.br');
 	
 		$mail->IsHTML(true);

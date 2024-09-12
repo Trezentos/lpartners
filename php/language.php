@@ -115,9 +115,9 @@ $_lang['en']['nosso_contato'] 		= 'OUR CONTACT';
 $_lang['es']['nosso_contato'] 		= 'NUESTRO CONTACTO';
 
 
-$_lang['pt']['empresa_texto'] = '<strong>COM MAIS DE UMA DÉCADA DE EXISTÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO...</strong> <br> <br>O conhecimento adquirido ao longo desses anos, possibilitou à LP Export construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. ';
-$_lang['en']['empresa_texto'] = '<strong>WITH MORE THAN A DECADE OF EXISTENCE, SOLIDITY, DYNAMISM AND SUCCESS ...</strong> <br> <br>Through a serious and solid work, the expertise provided throughout the years has leaded LP Export to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations.';
-$_lang['es']['empresa_texto'] = '<strong>CON MÁS DE UNA DÉCADA DE EXISTENCIA, SOLIDEZ, DINAMISMO Y ÉXITO...</strong> <br> <br>El conocimiento adquirido a lo largo de estos años, posibilitó a LP Export construir una relación confiable y duradera junto a sus clientes y proveedores, pues su actuación valora siempre por la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que lleva en consideración la fidelización de las marcas y la regularidad en las operaciones.';
+$_lang['pt']['empresa_texto'] = '<strong>COM MAIS DE UMA DÉCADA DE EXISTÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO...</strong> <br> <br>O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. ';
+$_lang['en']['empresa_texto'] = '<strong>WITH MORE THAN A DECADE OF EXISTENCE, SOLIDITY, DYNAMISM AND SUCCESS ...</strong> <br> <br>Through a serious and solid work, the expertise provided throughout the years has leaded LPartners to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations.';
+$_lang['es']['empresa_texto'] = '<strong>CON MÁS DE UNA DÉCADA DE EXISTENCIA, SOLIDEZ, DINAMISMO Y ÉXITO...</strong> <br> <br>El conocimiento adquirido a lo largo de estos años, posibilitó a LPartners construir una relación confiable y duradera junto a sus clientes y proveedores, pues su actuación valora siempre por la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que lleva en consideración la fidelización de las marcas y la regularidad en las operaciones.';
 
 
 $_lang['pt']['empresa_subfrase']	= 'ATUA NA EXPORTAÇÃO';
@@ -156,13 +156,13 @@ $_lang['es']['assistencia_texto'] = 'Adecuada al producto y marca, posibilitando
 
 
 
-$_lang['pt']['blog_texto']	= 'A LP Export também mantém você informado... ';
-$_lang['en']['blog_texto']	= 'LP Export also keeps you informed...';
-$_lang['es']['blog_texto']	= 'LP Export también le mantiene informado...';
+$_lang['pt']['blog_texto']	= 'A LPartners também mantém você informado... ';
+$_lang['en']['blog_texto']	= 'LPartners also keeps you informed...';
+$_lang['es']['blog_texto']	= 'LPartners también le mantiene informado...';
 
-$_lang['pt']['nossos_serv_texto'] = 'A LP Export cumprindo seu compromisso com o seu negócio!';
-$_lang['en']['nossos_serv_texto'] = 'This is LP Export delivering on its commitments to your business!';
-$_lang['es']['nossos_serv_texto'] = '¡Es la LP Export cumpliendo sus compromisos con su negocio!';
+$_lang['pt']['nossos_serv_texto'] = 'A LPartners cumprindo seu compromisso com o seu negócio!';
+$_lang['en']['nossos_serv_texto'] = 'This is LPartners delivering on its commitments to your business!';
+$_lang['es']['nossos_serv_texto'] = '¡Es la LPartners cumpliendo sus compromisos con su negocio!';
 
 
 /* Institucional */
@@ -184,11 +184,11 @@ $_lang['pt']['inst_intro_titulo'] = 'COM QUASE DUAS DÉCADAS DE EXISTÊNCIA, SOL
 $_lang['en']['inst_intro_titulo'] = 'WITH ALMOST TWO DECADES OF EXISTENCE, SOLIDITY, DYNAMISM AND SUCCESS';
 $_lang['es']['inst_intro_titulo'] = 'CON CASI DOS DÉCADAS DE EXISTENCIA, SOLIDEZ, DINAMISMO Y ÉXITO';
 
-$_lang['pt']['inst_intro_texto'] = 'A LP Export exporta produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes e Hong Kong. O conhecimento adquirido ao longo desses anos, possibilitou à LP Export construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LP Export, cumprindo seus compromissos com o seu negócio!';
+$_lang['pt']['inst_intro_texto'] = 'A LPartners exporta produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes e Hong Kong. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
 
-$_lang['en']['inst_intro_texto'] = 'LP Export has exported food products to more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates and Hong Kong. Through a serious and solid work, the expertise provided throughout the years has leaded LP Export to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations. Additionally, its team is made up of professionals with many years of experience in the international meat market, always ready to assist its business partners to identify the best opportunity available for each transaction. This is LP Export, delivering on its commitments to your business!';
+$_lang['en']['inst_intro_texto'] = 'LPartners has exported food products to more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates and Hong Kong. Through a serious and solid work, the expertise provided throughout the years has leaded LPartners to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations. Additionally, its team is made up of professionals with many years of experience in the international meat market, always ready to assist its business partners to identify the best opportunity available for each transaction. This is LPartners, delivering on its commitments to your business!';
 
-$_lang['es']['inst_intro_texto'] = 'LP Export ha exportado productos alimenticios a más de 80 países desde 2006, con oficinas estratégicamente ubicadas en Brasil, Emiratos Árabes y Hong Kong. El conocimiento adquirido a lo largo de estos años, posibilitó a LP Export construir una relación confiable y duradera junto a sus clientes y proveedores, pues su actuación valora siempre por la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que lleva en consideración la fidelización de las marcas y la regularidad en las operaciones. Además, su equipo es formado por profesionales con muchos años de experiencia en el mercado internacional de carnes y está a disposición de sus socios para ayudarles a identificar la mejor oportunidad disponible en cada operación. ¡Esta es LP Export, cumpliendo sus compromisos con su negocio!';
+$_lang['es']['inst_intro_texto'] = 'LPartners ha exportado productos alimenticios a más de 80 países desde 2006, con oficinas estratégicamente ubicadas en Brasil, Emiratos Árabes y Hong Kong. El conocimiento adquirido a lo largo de estos años, posibilitó a LPartners construir una relación confiable y duradera junto a sus clientes y proveedores, pues su actuación valora siempre por la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que lleva en consideración la fidelización de las marcas y la regularidad en las operaciones. Además, su equipo es formado por profesionales con muchos años de experiencia en el mercado internacional de carnes y está a disposición de sus socios para ayudarles a identificar la mejor oportunidad disponible en cada operación. ¡Esta es LPartners, cumpliendo sus compromisos con su negocio!';
 
 
 
@@ -327,11 +327,11 @@ $_lang['es']['h_titulo_parceria']					= 'PARCERIA';
 /* Parágrafos */
 
 // 2006
-$_lang['pt']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda a LP Export DMCC em 20 de maio de 2006, em Dubai, Emirados Árabes Unidos.';
+$_lang['pt']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda a LPartners DMCC em 20 de maio de 2006, em Dubai, Emirados Árabes Unidos.';
 
-$_lang['en']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol founds the LP Export DMCC on May 20, 2006 in Dubai, United Arab Emirates.';
+$_lang['en']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol founds the LPartners DMCC on May 20, 2006 in Dubai, United Arab Emirates.';
 
-$_lang['es']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda LP Export DMCC el 20 de mayo de 2006 en Dubai (Emiratos Árabes Unidos).';
+$_lang['es']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda LPartners DMCC el 20 de mayo de 2006 en Dubai (Emiratos Árabes Unidos).';
 
 
 
@@ -410,9 +410,9 @@ $_lang['es']['h_paragrafo_expansao'] = 'Intensifica-se as operações de Frango 
 // 2015
 $_lang['pt']['h_paragrafo_exterior'] = 'Em janeiro deste ano, a empresa aumenta as exportações de suínos com um novo projeto para diferentes destinos.';
 
-$_lang['en']['h_paragrafo_exterior'] = 'In January, LP Exports increase businesses of Pork products with a new project to different destinations.';
+$_lang['en']['h_paragrafo_exterior'] = 'In January, LPartners increase businesses of Pork products with a new project to different destinations.';
 
-$_lang['es']['h_paragrafo_exterior'] = 'En enero, LP Export aumenta los negocios de productos porcinos con un nuevo proyecto a diferentes destinos.';
+$_lang['es']['h_paragrafo_exterior'] = 'En enero, LPartners aumenta los negocios de productos porcinos con un nuevo proyecto a diferentes destinos.';
 
 
 
@@ -618,9 +618,9 @@ $_lang['es']['nenhum_produto_encontrado'] = 'Ningún producto encontrado.';
 
 /* Tracking */
 
-$_lang['pt']['acesse_o_rastramento'] = 'Acesse o rastreamento da <strong>LP Export</strong> e obtenha o status da sua carga. ';
-$_lang['en']['acesse_o_rastramento'] = 'Access <strong>LP Export</strong> tracking and get the status of your cargo.';
-$_lang['es']['acesse_o_rastramento'] = 'Acceda al rastreo de <strong>LP Export</strong> y obtenga el estado de su carga.';
+$_lang['pt']['acesse_o_rastramento'] = 'Acesse o rastreamento da <strong>LPartners</strong> e obtenha o status da sua carga. ';
+$_lang['en']['acesse_o_rastramento'] = 'Access <strong>LPartners</strong> tracking and get the status of your cargo.';
+$_lang['es']['acesse_o_rastramento'] = 'Acceda al rastreo de <strong>LPartners</strong> y obtenga el estado de su carga.';
 
 $_lang['pt']['numero_awb'] = 'Número do AWB ou Container';
 $_lang['en']['numero_awb'] = 'AWB Number or Container';
@@ -825,9 +825,9 @@ $_lang['es']['vendas_america_cingapura'] = 'Geerente de Ventas - Sudamérica y S
 
 /* TRABALHE CONOSCO */
 
-$_lang['pt']['trabalhe_conosco_texto'] = 'Quer fazer parte da equipe de funcionários da LP Export?<br> Envie-nos seu currículo e, assim que houver uma vaga adequada ao seu perfil, entraremos em contato:';
-$_lang['en']['trabalhe_conosco_texto'] = 'Do you want to be part of the staff of LP Export?<br>Send us your CV and, as soon as there is a suitable position for your profile, we will contact you:';
-$_lang['es']['trabalhe_conosco_texto'] = '¿Quieres formar parte del personal de LP Export?<br>Envíenos su currículum y, una vez que haya una vacante adecuada para su perfil, entraremos en contacto:';
+$_lang['pt']['trabalhe_conosco_texto'] = 'Quer fazer parte da equipe de funcionários da LPartners?<br> Envie-nos seu currículo e, assim que houver uma vaga adequada ao seu perfil, entraremos em contato:';
+$_lang['en']['trabalhe_conosco_texto'] = 'Do you want to be part of the staff of LPartners?<br>Send us your CV and, as soon as there is a suitable position for your profile, we will contact you:';
+$_lang['es']['trabalhe_conosco_texto'] = '¿Quieres formar parte del personal de LPartners?<br>Envíenos su currículum y, una vez que haya una vacante adecuada para su perfil, entraremos en contacto:';
 
 
 /* LAYER CONTATO */

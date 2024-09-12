@@ -34,7 +34,7 @@ get_header();
 
 		<div class="lp_container">
 			<div class="lp_top">
-				L TRACKING
+				LP TRACKING
 				<div class="lp_globe"><i class="fa fa-search" aria-hidden="true"></i></div>
 				<div class="lp_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 			</div>
@@ -77,53 +77,66 @@ get_header();
 			<h1 class="waypoint animation_bottom"><?php echo $_lang[$lang]['nossos_produtos']; ?></h1>
 			<br><br>
 			<div class="columns">
-				<div class="column is-3 waypoint animation_right">
+				<div class="column waypoint animation_right">
 					<a href="<?php echo HTTP.'produtos/beef/'.$lang; ?>" class="has-text-centered card-home-produtos">
 						<div class="card-icon">
 							<img src="<?php echo HTTP; ?>img/icon-beef.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['boi']; ?></h2>
 						<hr>
-						<div><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
 					</a>
 				</div>
-				<div class="column is-3 waypoint animation_left">
+				<div class="column waypoint animation_left">
 					<a href="<?php echo HTTP.'produtos/poultry/'.$lang; ?>" class="has-text-centered card-home-produtos pork">
 						<div class="card-icon">
 							<img src="<?php echo HTTP; ?>img/icon-poltry.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['frango']; ?></h2>
 						<hr>
-						<div><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
 					</a>
 				</div>
-				<div class="column is-3 waypoint animation_bottom">
+				<div class="column waypoint animation_bottom">
 					<a href="<?php echo HTTP.'produtos/pork/'.$lang; ?>" class="has-text-centered card-home-produtos">
 						<div class="card-icon">
 							<img src="<?php echo HTTP; ?>img/icon-pork.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['porco']; ?></h2>
 						<hr>
-						<div><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
 					</a>
 				</div>
-				<div class="column is-3 waypoint animation_bottom">
+				<div class="column waypoint animation_bottom">
 					<a href="<?php echo HTTP.'produtos/fish/'.$lang; ?>" class="has-text-centered card-home-produtos">
 						<div class="card-icon">
 							<img src="<?php echo HTTP; ?>img/icon-fish.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['peixe']; ?></h2>
 						<hr>
-						<div><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="has-text-centered">
+							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
+						</div>
+					</a>
+				</div>
+				<div class="column waypoint animation_bottom">
+					<a href="<?php echo HTTP.'produtos/lamb/'.$lang; ?>" class="has-text-centered card-home-produtos">
+						<div class="card-icon" style="padding-top: 10px;">
+							<img src="<?php echo HTTP; ?>img/icon-cordeiro.png">
+						</div>
+						<h2><?php echo $_lang[$lang]['cordeiro']; ?></h2>
+						<hr>
+						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>

@@ -61,6 +61,10 @@ $_lang['pt']['peixe'] 			= 'Peixe';
 $_lang['en']['peixe'] 			= 'Fish';
 $_lang['es']['peixe'] 			= 'Pez';
 
+$_lang['pt']['cordeiro'] 		= 'Cordeiro';
+$_lang['en']['cordeiro'] 		= 'Lamb';
+$_lang['es']['cordeiro'] 		= 'Cordero';
+
 
 $_lang['pt']['voltar'] 				= 'Voltar';
 $_lang['en']['voltar'] 				= 'Go Back';

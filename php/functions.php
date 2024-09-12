@@ -952,7 +952,7 @@ function get_header() {
 	$_html[] = '<body>
 	<div class="lp_container_lateral '.(!$MOBILE  ? "is-enabled":"hidden").'">
 		<div class="lp_top">
-			L TRACKING
+			LP TRACKING
 			<div class="lp_globe"><i class="fa fa-search" aria-hidden="true"></i></div>
 			<div class="lp_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 		</div>
@@ -1015,6 +1015,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/poultry/'.$lang.'">'.$_lang[$lang]['frango'].'</a></li>
 							<li><a href="'.HTTP.'produtos/pork/'.$lang.'">'.$_lang[$lang]['porco'].'</a></li>
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
+							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1103,6 +1104,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/poultry/'.$lang.'">'.$_lang[$lang]['frango'].'</a></li>
 							<li><a href="'.HTTP.'produtos/pork/'.$lang.'">'.$_lang[$lang]['porco'].'</a></li>
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
+							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1151,6 +1153,7 @@ function get_footer() {
 					<a href="'.HTTP.'produtos/pork/'.$lang.'" class="link">'.$_lang[$lang]['porco'].'</a>
 					<a href="'.HTTP.'produtos/poltry/'.$lang.'" class="link">'.$_lang[$lang]['frango'].'</a>
 					<a href="'.HTTP.'produtos/beef/'.$lang.'" class="link">'.$_lang[$lang]['boi'].'</a>
+					<a href="'.HTTP.'produtos/lamb/'.$lang.'" class="link">'.$_lang[$lang]['cordeiro'].'</a>
 				</div>
 				<div class="column is-2">
 					<h3>'.$_lang[$lang]['menu_servicos'].'</h3>

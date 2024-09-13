@@ -77,8 +77,13 @@ get_header(); ?>
 							</div>
 						</a>
 						<a href="<?php echo HTTP; ?>produtos/lamb/<?php echo $lang; ?>" title="<?php echo $_lang[$lang]['cordeiro']; ?>">
-							<div class="card-icon <?php echo ($categoria=="lamb"?"active":""); ?>" style="padding-top: 10px;">
+							<div style="padding-top: 15px;" class="card-icon <?php echo ($categoria=="lamb"?"active":""); ?>">
 								<img src="<?php echo HTTP; ?>img/icon-cordeiro.png">
+							</div>
+						</a>
+						<a href="<?php echo HTTP; ?>produtos/turkey/<?php echo $lang; ?>" title="<?php echo $_lang[$lang]['peru']; ?>">
+							<div style="padding-top: 12px;" class="card-icon <?php echo ($categoria=="turkey"?"active":""); ?>">
+								<img src="<?php echo HTTP; ?>img/icon-peru.png">
 							</div>
 						</a>
 					</div>
@@ -183,6 +188,7 @@ get_header(); ?>
 		<div class="wrap">
 
 			<h1 class="waypoint animation_bottom"><?php echo $_lang[$lang]['nossos_produtos']; ?></h1>
+			<p class="has-text-centered waypoint animation_bottom" > <?php echo $_lang[$lang]['melhores_cortes']; ?></p>
 			<br><br>
 			<div class="columns">
 				<div class="column waypoint animation_right">
@@ -191,8 +197,6 @@ get_header(); ?>
 							<img src="<?php echo HTTP; ?>img/icon-beef.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['boi']; ?></h2>
-						<hr>
-						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
@@ -204,8 +208,6 @@ get_header(); ?>
 							<img src="<?php echo HTTP; ?>img/icon-poltry.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['frango']; ?></h2>
-						<hr>
-						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
@@ -217,8 +219,6 @@ get_header(); ?>
 							<img src="<?php echo HTTP; ?>img/icon-pork.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['porco']; ?></h2>
-						<hr>
-						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
@@ -230,8 +230,6 @@ get_header(); ?>
 							<img src="<?php echo HTTP; ?>img/icon-fish.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['peixe']; ?></h2>
-						<hr>
-						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>
@@ -239,12 +237,23 @@ get_header(); ?>
 				</div>
 				<div class="column waypoint animation_bottom">
 					<a href="<?php echo HTTP.'produtos/lamb/'.$lang; ?>" class="has-text-centered card-home-produtos">
-						<div class="card-icon" style="padding-top: 10px;">
+						<div class="card-icon" style="padding-top: 15px;">
 							<img src="<?php echo HTTP; ?>img/icon-cordeiro.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['cordeiro']; ?></h2>
-						<hr>
-						<div class="description"><?php echo $_lang[$lang]['melhores_cortes']; ?></div>
+						<div class="has-text-centered">
+							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
+						</div>
+					</a>
+				</div>
+				<div class="column waypoint animation_bottom">
+					<a href="<?php echo HTTP.'produtos/turkey/'.$lang; ?>" 
+					class="has-text-centered card-home-produtos"
+					>
+						<div class="card-icon"  style="padding-top: 12px;">
+							<img src="<?php echo HTTP; ?>img/icon-peru.png">
+						</div>
+						<h2><?php echo $_lang[$lang]['peru']; ?></h2>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>

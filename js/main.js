@@ -172,7 +172,7 @@ jQuery(document).ready(function($)
 				$('header .nav-menu li .sub-produtos').css({'height':'0'});
 				$(this).removeClass('is-active-sub');
 			}else{
-				$('header .nav-menu li .sub-produtos').css({'height':'228'});
+				$('header .nav-menu li .sub-produtos').css({'height':'272'});
 				$(this).addClass('is-active-sub');
 			}
 		});

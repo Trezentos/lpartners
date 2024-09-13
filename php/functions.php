@@ -1,4 +1,15 @@
 <?php
+function full_url()
+{
+    $s  = ( empty($_SERVER["HTTPS"]) ? '' : ($_SERVER["HTTPS"] == "on"? "s" : ""));
+    $sp = strtolower($_SERVER["SERVER_PROTOCOL"]);
+    $protocol = substr($sp, 0, strpos($sp, "/")) . $s;
+    $port = ($_SERVER["SERVER_PORT"] == "80") ? "" : (":".$_SERVER["SERVER_PORT"]);
+    return $protocol . "://" . $_SERVER['SERVER_NAME'] . $port . $_SERVER['REQUEST_URI'];
+}
+
+
+
 function validElement($element) {
     return strlen($element) > 0;
 }
@@ -1016,6 +1027,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/pork/'.$lang.'">'.$_lang[$lang]['porco'].'</a></li>
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
 							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
+							<li><a href="'.HTTP.'produtos/turkey/'.$lang.'">'.$_lang[$lang]['peru'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1105,6 +1117,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/pork/'.$lang.'">'.$_lang[$lang]['porco'].'</a></li>
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
 							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
+							<li><a href="'.HTTP.'produtos/turkey/'.$lang.'">'.$_lang[$lang]['peru'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1154,6 +1167,7 @@ function get_footer() {
 					<a href="'.HTTP.'produtos/poltry/'.$lang.'" class="link">'.$_lang[$lang]['frango'].'</a>
 					<a href="'.HTTP.'produtos/beef/'.$lang.'" class="link">'.$_lang[$lang]['boi'].'</a>
 					<a href="'.HTTP.'produtos/lamb/'.$lang.'" class="link">'.$_lang[$lang]['cordeiro'].'</a>
+					<a href="'.HTTP.'produtos/turkey/'.$lang.'" class="link">'.$_lang[$lang]['peru'].'</a>
 				</div>
 				<div class="column is-2">
 					<h3>'.$_lang[$lang]['menu_servicos'].'</h3>

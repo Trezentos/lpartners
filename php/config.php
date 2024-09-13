@@ -2,7 +2,7 @@
 setlocale(LC_ALL, 'pt_BR.UTF8');
 
 error_reporting (1);
-//error_reporting (E_ALL);
+// error_reporting(E_ALL & ~(E_STRICT|E_NOTICE|E_WARNING));
 
 if(stristr($_SERVER['DOCUMENT_ROOT'], 'public_html') === FALSE)
 {
@@ -28,7 +28,7 @@ if(LOCALHOST) {
 	define('DB_USER','root');
 	define('DB_PASS','');
 	define('DB_HOST','localhost');
-	define('DB_NAME','lppartners');
+	define('DB_NAME','lpartners');
 	define('PREFIX','adm_');
 
 	/* PATH */
@@ -38,8 +38,8 @@ if(LOCALHOST) {
 } else {
 
 	/* DATABASE */
-	define('DB_USER','lpartners_site');
-	define('DB_PASS','dwODgx(PU+$q');
+	define('DB_USER','lpartners__site');
+	define('DB_PASS','&QQf9+FwWSK%');
 	define('DB_HOST','localhost');
 	define('DB_NAME','lpartners_site');
 	define('PREFIX','adm_');

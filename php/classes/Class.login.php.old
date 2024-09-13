@@ -500,24 +500,24 @@ class Usuario {
 		return explode("-",$_SESSION[$this->prefixoChaves."acesso"]);
 	}
 	
-
-    function acessoPagina() {
-        global $list_acess_file;
-        
-        $authorization = $this->getAcesso();
-        $this_file = pathinfo($_SERVER['SCRIPT_NAME'], PATHINFO_BASENAME);
-        
-        foreach($authorization as $authorized) {
-            if(in_array($this_file,$list_acess_file[$authorized])) $licensed++;
-            else $unauthorized++;       
-        }
-        
-        if($licensed>0) return true;
-        else {
-            if(in_array($this_file,$list_acess_file['FULL'])) return true;
-            else return $this_file;
-        }
-    }
-
-
+	function acessoPagina() {
+		global $LIST_ACCESS_FILE;
+		
+		$authorization = $this->getAcesso();
+        $this_file = returnFilePath('admin');
+		
+		foreach($authorization as $authorized)
+        {
+            if( !is_array( $LIST_ACCESS_FILE[$authorized] ) ) continue;
+            
+			if(in_array($this_file,$LIST_ACCESS_FILE[$authorized])) $licensed++;
+			else $unauthorized++;		
+		}
+		
+		if($licensed>0) return true;
+		else {
+			if(in_array($this_file,$LIST_ACCESS_FILE['FULL'])) return true;
+			else return $this_file;
+		}
+	}
 }

@@ -110,7 +110,7 @@ get_header();
 				</div>
 				<div class="column is-3 has-text-centered waypoint animation_right">
 					<div>
-						<img src="<?php echo HTTP; ?>img/logo-2018-lpexport.jpg"/>
+						<img src="<?php echo HTTP; ?>img/logo-2018-lpartners.jpg"/>
 					</div>
 					<div class="ano">2018</div>
 					<!-- <p class="has-text-justify">Estruturada, a empresa investe maciçamente na participação em Feiras e outros eventos e o resultado é inevitável: as operações crescem 20%, com exportações para 50 países neste ano.</p> -->

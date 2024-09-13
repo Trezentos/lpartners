@@ -45,7 +45,7 @@ $_lang['es']['menu_estruturacao_frigorificos'] 	 = 'Desarrollo de marcas';
 $_lang['es']['menu_mercado_internacional']		 = 'Presencia en el mercado internacional';
 $_lang['es']['menu_diagnostico_comercializacao'] = 'Trading';
 
-$_lang['pt']['frango'] 			= 'Aves';
+$_lang['pt']['frango'] 			= 'Frango';
 $_lang['en']['frango'] 			= 'Poultry';
 $_lang['es']['frango'] 			= 'Aves';
 
@@ -64,6 +64,10 @@ $_lang['es']['peixe'] 			= 'Pez';
 $_lang['pt']['cordeiro'] 		= 'Cordeiro';
 $_lang['en']['cordeiro'] 		= 'Lamb';
 $_lang['es']['cordeiro'] 		= 'Cordero';
+
+$_lang['pt']['peru'] 			= 'Peru';
+$_lang['en']['peru'] 			= 'Turkey';
+$_lang['es']['peru'] 			= 'Perú';
 
 
 $_lang['pt']['voltar'] 				= 'Voltar';

@@ -994,7 +994,7 @@ function get_header() {
 		<div class="wrap">
 			<nav class="nav_fixe">
 				<div class="nav-left">
-					<a class="nav-item logo-fixa" href="'.HTTP.$lang.'" title="'.$empresa.'"><img src="'.HTTP.'img/lp-export-logo-atual.png'.'"></a>
+					<a class="nav-item logo-fixa" href="'.HTTP.$lang.'" title="'.$empresa.'"><img src="'.HTTP.'img/lpartners-logo-atual.png'.'"></a>
 				</div>
 
 				<div class="nav-right-mobile is-hidden-desktop">
@@ -1213,7 +1213,7 @@ function get_footer() {
 			</a> -->
 
 			<a href="'.HTTP.$lang.'">
-				<img class="logo-footer waypoint animation_bottom" src="'.HTTP.'img/lp-export-logo-atual.png" alt="LP Export"/>
+				<img class="logo-footer waypoint animation_bottom" src="'.HTTP.'img/lpartners-logo-atual.png" alt="L Partners"/>
 			</a>
 			<!-- <div class="social waypoint animation_bottom">
 				<a href="https://www.facebook.com/LPartners/" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>

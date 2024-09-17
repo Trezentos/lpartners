@@ -47,7 +47,7 @@ $_lang['es']['menu_diagnostico_comercializacao'] = 'Trading';
 
 $_lang['pt']['frango'] 			= 'Frango';
 $_lang['en']['frango'] 			= 'Poultry';
-$_lang['es']['frango'] 			= 'Aves';
+$_lang['es']['frango'] 			= 'Pollo';
 
 $_lang['pt']['porco'] 			= 'Suíno';
 $_lang['en']['porco'] 			= 'Pork';
@@ -187,12 +187,11 @@ $_lang['pt']['pilares'] 			= 'PILARES';
 $_lang['en']['pilares'] 			= 'PILLARS';
 $_lang['es']['pilares'] 			= 'PILARES';
 
+$_lang['pt']['inst_intro_titulo'] = 'COM MAIS DE QUATRO DÉCADAS DE EXPERIÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO';
+$_lang['en']['inst_intro_titulo'] = 'WITH MORE THAN FOUR DECADES OF EXPERIENCE, SOLIDITY, DYNAMISM AND SUCCESS';
+$_lang['es']['inst_intro_titulo'] = 'CON MÁS DE CUATRO DÉCADAS DE EXPERIENCIA, SOLIDEZ, DINAMISMO Y ÉXITO';
 
-$_lang['pt']['inst_intro_titulo'] = 'COM QUASE DUAS DÉCADAS DE EXISTÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO';
-$_lang['en']['inst_intro_titulo'] = 'WITH ALMOST TWO DECADES OF EXISTENCE, SOLIDITY, DYNAMISM AND SUCCESS';
-$_lang['es']['inst_intro_titulo'] = 'CON CASI DOS DÉCADAS DE EXISTENCIA, SOLIDEZ, DINAMISMO Y ÉXITO';
-
-$_lang['pt']['inst_intro_texto'] = 'A LPartners exporta produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes e Hong Kong. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
+$_lang['pt']['inst_intro_texto'] = 'A LPartners é uma evolução da LP Export, na qual negocia produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes e Hong Kong. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
 
 $_lang['en']['inst_intro_texto'] = 'LPartners has exported food products to more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates and Hong Kong. Through a serious and solid work, the expertise provided throughout the years has leaded LPartners to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations. Additionally, its team is made up of professionals with many years of experience in the international meat market, always ready to assist its business partners to identify the best opportunity available for each transaction. This is LPartners, delivering on its commitments to your business!';
 
@@ -500,7 +499,7 @@ $_lang['es']['h_paragrafo_2023'] = 'Ampliamos nuestra cartera de productos y exp
 // 2024
 $_lang['pt']['h_paragrafo_2024'] = 'A abertura de nosso mais novo escritório em Itajaí Brasil, é mais um marco importante em nossa história contínua de sucesso.';
 
-$_lang['en']['h_paragrafo_2024'] = 'Opening of our newest office in Itajaí Brazil, marks another important milestone in our ongoing story of success.';
+$_lang['en']['h_paragrafo_2024'] = 'Opening of our newest office in Itajaí Brazil, marks another important milestone in our ongoing history of success.';
 
 $_lang['es']['h_paragrafo_2024'] = 'La apertura de nuestra nueva oficina en Itajaí, Brasil, marca otro hito importante en nuestra continua historia de éxito.';
 
@@ -686,9 +685,9 @@ $_lang['en']['cei_europa_ru'] 		= 'RUSSIA, CIS AND EAST EUROPE';
 $_lang['es']['cei_europa_ru'] 		= 'RUSSIA, CEI Y EUROPA DEL ESTE';
 
 
-$_lang['pt']['russia'] 				= 'RÚSSIA';
-$_lang['en']['russia'] 				= 'RUSSIA';
-$_lang['es']['russia'] 				= 'RUSIA';
+$_lang['pt']['oceania'] 				= 'OCEANIA';
+$_lang['en']['oceania'] 				= 'OCEANIA';
+$_lang['es']['oceania'] 				= 'OCEANÍA';
 
 
 

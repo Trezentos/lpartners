@@ -40,7 +40,7 @@
 
 							<h4><?=$_lang[$lang]['diretor_comercial'];?></h4>
 							<strong id="nome-setor">Luciano Colonetti</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luciano@lpartners.net">luciano@lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luciano@lpartners.net">luciano@Lpartners.net</a></span><br>
 							<!-- <div class="skype-contato">
 								<a class="btn-skype skype-button" id="skype-setor" href="skype:"><i class="fa fa-skype"></i> Skype directly</a>
 							</div> -->
@@ -50,7 +50,7 @@
 							<h4>Manager</h4>
 							<strong>Rafael Andreas Guenther</strong><br>
 
-							<i class="fa fa-envelope"></i> <span>E-mail: <a href="mailto:rafael@lpartners.net">rafael@lpartners.net</a></span>
+							<i class="fa fa-envelope"></i> <span>E-mail: <a href="mailto:rafael@lpartners.net">rafael@Lpartners.net</a></span>
 							<br>
 						</div>
 
@@ -97,7 +97,7 @@
 							<h4><?=$_lang[$lang]['diretor_geral']; ?></h4>
 
 							<strong>Luiz Pedro Bertuol</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luizbertuol@lpartners.net"> luizbertuol@lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luizbertuol@lpartners.net"> luizbertuol@Lpartners.net</a></span><br>
 
 							
 
@@ -106,7 +106,7 @@
 							<h4>Manager</h4>
 								
 							<strong id="nome-setor">Cristiane Gonçalves</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:cristiane@lpartners.net">cristiane@lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:cristiane@lpartners.net">cristiane@Lpartners.net</a></span><br>
 							<!-- <div class="skype-contato">
 								<a class="btn-skype skype-button" href="skype:"><i class="fa fa-skype"></i> Skype directly</a>
 							</div> -->
@@ -158,14 +158,14 @@
 							<h4>Manager</h4>
 								
 							<strong id="nome-setor">Gustavo Ribeiro Brandao</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:gustavo@lpartners.net">gustavo@lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:gustavo@lpartners.net">gustavo@Lpartners.net</a></span><br>
 
 							<br>
 
 							<h4>Commercial Requirements</h4>
 								
 							<strong id="nome-setor">All Markets</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net">commercial@lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net">commercial@Lpartners.net</a></span><br>
 						
 							<!-- <div class="skype-contato">
 								<a class="btn-skype skype-button" href="skype:gustavo.lpartners"><i class="fa fa-skype"></i> Skype directly</a>

@@ -1203,8 +1203,8 @@ function get_footer() {
 					<a href="'.HTTP.'trabalhe-conosco/'.$lang.'" class="link">'.$_lang[$lang]['trabalhe_conosco'].'</a>
 
 					<br>
-					<!--<h3>Redes Sociais</h3>
-					<a href="https://www.linkedin.com/company/lp-export-dmcc" target="_blank" class="link">Linkedin</a>-->
+					<h3>Redes Sociais</h3>
+					<a href="https://www.linkedin.com/company/lp-export-dmcc" target="_blank" class="link">Linkedin</a>
 				</div>
 			</div>
 			

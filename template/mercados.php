@@ -40,7 +40,7 @@ get_header();
 				<div class="marc-3 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['oriente_medio'];?></div>
 				<div class="marc-4 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['asia'];?></div>
 				<div class="marc-5 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['cei_europa'];?></div>
-				<div class="marc-6 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['russia'];?></div>
+				<div class="marc-6 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['oceania'];?></div>
 				<div class="marc-map-icon waypoint animation_left mp-icon-1"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
 				<div class="marc-map-icon waypoint animation_right mp-icon-2"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
 				<div class="marc-map-icon waypoint animation_left mp-icon-3"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
@@ -57,7 +57,7 @@ get_header();
 		
 			<div class="has-text-centered">
 
-				<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net"> commercial@lpartners.net</a></span>
+				<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net"> commercial@Lpartners.net</a></span>
 
 			</div>
 

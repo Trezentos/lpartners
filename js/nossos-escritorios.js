@@ -26,6 +26,6 @@ jQuery(document).ready(function($)
 	});
 
 
-    $('.escritorios-carrousel .owl-next span').html('<svg xmlns="http://www.w3.org/2000/svg" width="25px" height="50px" viewBox="0 0 50 100" fill="none" stroke="#007d35"><polyline points="0 0 50 50 0 100" stroke-width="2"/></svg>');
-	$('.escritorios-carrousel .owl-prev span').html('<svg xmlns="http://www.w3.org/2007d35/svg" width="25px" height="50px" viewBox="0 0 50 100" fill="none" stroke="#007d35"><polyline points="50 0 0 50 50 100" stroke-width="2"/></svg>');
+    $('.escritorios-carrousel .owl-next span').html('<svg xmlns="http://www.w3.org/2000/svg" width="25px" height="40px" viewBox="0 0 50 100" fill="none" stroke="#007d35"><polyline points="0 0 50 50 0 100" stroke-width="2"/></svg>');
+	$('.escritorios-carrousel .owl-prev span').html('<svg xmlns="http://www.w3.org/2007d35/svg" width="25px" height="40px" viewBox="0 0 50 100" fill="none" stroke="#007d35"><polyline points="50 0 0 50 50 100" stroke-width="2"/></svg>');
 });

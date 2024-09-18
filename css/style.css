@@ -3278,6 +3278,8 @@ footer .logo-footer{width: 180px;}
     
     .escritorios .card-escritorio .card-escritorio-top h4{font-size: 24px;}
     .escritorios .card-escritorio h5{font-size: 22px;}
+    .escritorios .card-escritorio { width: 85% !important; }
+    
 
     .escritorios #clock-brasil, .escritorios #clock-dubai, .escritorios #clock-hongkong{margin-top: 0; padding-top: 54px}
     .escritorios .columns .column{margin-bottom: 40px;}
@@ -3323,7 +3325,7 @@ footer .logo-footer{width: 180px;}
         top: 350px;
         right: 50%;
         transform: translateX(50%);
-        width: 105%;
+        width: 110%;
         display: flex;
         justify-content: space-between;
     }

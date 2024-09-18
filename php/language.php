@@ -735,6 +735,16 @@ $_lang['en']['enviar'] 				= 'SUBMIT';
 $_lang['es']['enviar'] 				= 'ENVIAR';
 
 
+//contato - Montevideu
+$_lang['pt']['montevideo_contato'] 				= 'Montevidéu - Uruguai';
+$_lang['en']['montevideo_contato'] 				= 'Montevideo - Uruguay';
+$_lang['es']['montevideo_contato'] 				= 'Montevideo - Uruguay';
+
+$_lang['pt']['montevideo_escritorio']			= 'Montevidéu - Escritório';
+$_lang['en']['montevideo_escritorio']			= 'Montevideo - Office';
+$_lang['es']['montevideo_escritorio']			= 'Montevideo - Oficina';
+
+
 //contato - itajaí
 
 $_lang['pt']['itajai_contato'] 				= 'Itajaí - Brasil';

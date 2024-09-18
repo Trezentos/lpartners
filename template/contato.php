@@ -1,5 +1,7 @@
 <?php
 add_javascript(['jquery.maskedinput.js', 'page.contato.js', 'jquery.thooClock.js', 'clock.js']);
+add_style(array('css/owl.carousel.min.css', 'css/owl.theme.default.min.css'));
+
 get_header();
 ?>
 
@@ -41,6 +43,7 @@ get_header();
 				        <option value="DUBAI">DUBAI - UAE (HEAD OFFICE)</option>
 						<option value="ITAJAÍ">ITAJAÍ - BRAZIL - OFFICE</option>
 						<option value="HONG KONG">HONG KONG - CHINA - OFFICE</option>
+						<option value="MONTEVIDÉU">MONTEVIDÉU - URUGUAI - OFFICE</option>
 				      </select>
 				    </span>
 				</label>

@@ -21,6 +21,10 @@ if($escritorio == 'HONG KONG') {
 	$address = 'gustavo@lpartners.net';
 }
 
+if($escritorio == 'MONTEVIDÉU') {
+	$address = 'commercial@lpartners.net';
+}
+
 if ( $_POST )
 {
 
@@ -53,7 +57,7 @@ if ( $_POST )
 		$mail->SetFrom("envio@quax.com.br","Site - LPartners");
 		$mail->AddReplyTo($email, $nome);
 
-		// $mail->AddAddress("willian@quax.com.br");
+		// $mail->AddAddress("gustavo@quax.com.br");
 		$mail->AddAddress($address, "LPartners");
 		$mail->AddBCC('contato@quax.com.br', 'Quax');
 		$mail->IsHTML(true);

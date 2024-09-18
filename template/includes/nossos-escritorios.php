@@ -1,3 +1,10 @@
+<?php
+
+add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carousel.min.js'));
+
+
+
+?>
 
 
 	<section class="escritorios">
@@ -5,8 +12,63 @@
 
 			<h1 class="waypoint animation_bottom"><?=$_lang[$lang]['nossos_escritorios']; ?></h1>
 
-			<div class="columns">
-				<div class="column is-4 brasil waypoint animation_left">
+			<div class="is-flex escritorios-carrousel owl-carousel owl-theme ">
+				<div class=" montevideo waypoint animation_left">
+
+					<div id="clock-uruguai"></div>
+
+					<div class="card-escritorio">
+						<div class="card-escritorio-top">
+							<h4><?= $_lang[$lang]['montevideo_contato'];?></h4>
+
+							<?php if($permalink!="home"){?>
+							<!-- <select id="select-brasil" name="select-brasil">
+								<option value="1"><?=$_lang[$lang]['diretor_comercial'];?></option>
+								<option value="2"><?=$_lang[$lang]['gerente_de_compras'];?></option>
+								<option value="3"><?=$_lang[$lang]['cargo_vendas_af_ca'];?></option>
+								<option value="7"><?=$_lang[$lang]['cargo_vendas_ame_sul'];?></option>
+								<option value="4"><?=$_lang[$lang]['cargo_ger_adm_log'];?></option>
+								<option value="5"><?=$_lang[$lang]['cargo_coo_log_doc'];?></option>
+								<option value="6"><?=$_lang[$lang]['cargo_log_int'];?></option>
+							</select> -->
+							<?php } ?>
+						</div>
+
+						<div class="endereco">
+							<h5><?=$_lang[$lang]['montevideo_escritorio']?></h5>
+							<br>
+							<i class="fa fa-map-marker"></i>Constituyente 1467<br> 
+							Edificio Torre El Gaucho<br>
+							Oficina 1702. CP 11200 <br>
+							
+							<!-- <i class="fa fa-phone"></i> 
+							<span id="mobile-setor">
+								<?=$_lang[$lang]['telefone'];?>
+								<a href=""></a>
+							</span> -->
+						</div>
+
+						<div class="setores">
+
+							<!-- <h4>Manager</h4>
+								
+							<strong id="nome-setor">Gustavo Ribeiro Brandao</strong><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:gustavo@lpartners.net">gustavo@Lpartners.net</a></span><br>
+
+							<br> -->
+
+							<h4>Commercial Requirements</h4>
+								
+							<strong id="nome-setor">All Markets</strong><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net">commercial@Lpartners.net</a></span><br>
+						</div>	
+
+						<?php if($permalink=="home"){?>
+						<br><a href="<?=HTTP?>contato/<?=$lang; ?>" class="botao"><?=$_lang[$lang]['saiba_mais']; ?></a>
+						<?php } ?>
+					</div>
+				</div>
+				<div class=" brasil waypoint animation_bottom">
 
 					<div id="clock-brasil"></div>
 
@@ -61,12 +123,7 @@
 				</div>
 
 
-
-
-
-
-
-				<div class="column is-4 dubai waypoint animation_bottom">
+				<div class=" dubai waypoint animation_right">
 
 					<div id="clock-dubai"></div>
 
@@ -122,12 +179,7 @@
 				</div>
 
 
-
-
-
-
-
-				<div class="column is-4 hongkong waypoint animation_right">
+				<div class=" hongkong waypoint animation_bottom">
 
 					<div id="clock-hongkong"></div>
 

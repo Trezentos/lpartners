@@ -1,5 +1,6 @@
 <?php
 add_javascript(array('jquery.thooClock.js','clock.js'));
+add_style(array('css/owl.carousel.min.css', 'css/owl.theme.default.min.css'));
 get_header(); ?>
 
 	<section class="banner_sub servicos waypoint animation_bottom is-hidden-mobile">

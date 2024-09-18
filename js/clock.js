@@ -30,5 +30,14 @@ jQuery(document).ready(function($)
 		hourCorrection:'+3',
 	});
 	
-
+	$('#clock-uruguai').thooClock({
+		size:150,
+		showNumerals:false,
+		dialColor:'#FFFFFF',
+		secondHandColor:'#007d35',
+		minuteHandColor:'#FFFFFF',
+		hourHandColor:'#FFFFFF',
+		hourCorrection:'+4',
+	});
 });
+

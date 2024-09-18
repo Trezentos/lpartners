@@ -1065,9 +1065,9 @@ function get_header() {
 						Hong Kong<a href="skype:+852421561515?call">+852 4 <strong>2156.1515</strong></a>
 					</div>
 					<div class="nav-right">
-						<a style="margin-right: 35px;" href="https://www.linkedin.com/company/lp-export-dmcc" target="_blank" title="Linkedin">
+						<!--<a style="margin-right: 35px;" href="https://www.linkedin.com/company/lp-export-dmcc" target="_blank" title="Linkedin">
 							<i class="fa fa-linkedin-square" style="font-size: 18px"></i>
-						</a>
+						</a> -->
 
 						<a class="flag pt" href="'.HTTP.$pagina.'pt"></a>
 						<a class="flag en" href="'.HTTP.$pagina.'en"></a>

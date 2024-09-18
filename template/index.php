@@ -10,6 +10,9 @@ $qNoticias = $db->get_results("SELECT * FROM ".$tables['NOTICIAS']." WHERE statu
 
 
 add_javascript(array('jquery.thooClock.js','clock.js'));
+
+add_style(array('css/owl.carousel.min.css', 'css/owl.theme.default.min.css'));
+
 get_header();
 ?>
 

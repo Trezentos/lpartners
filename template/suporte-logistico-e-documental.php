@@ -31,7 +31,7 @@ get_header(); ?>
 					<h1 class="waypoint animation_right"><?php echo $_lang[$lang]['menu_asssitencia_logistica']; ?></h1>
 
 					
-					<img src="<?php echo HTTP; ?>img/equipe-lp-export-logistica.jpg" class="waypoint animation_right">
+					<img src="<?php echo HTTP; ?>img/equipe-lpartners-logistica.jpg" class="waypoint animation_right">
 					<br><br>
 					
 					<div class="has-text-justify waypoint animation_right">

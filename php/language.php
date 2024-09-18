@@ -503,6 +503,13 @@ $_lang['en']['h_paragrafo_2024'] = 'Opening of our newest office in Itajaí Braz
 
 $_lang['es']['h_paragrafo_2024'] = 'La apertura de nuestra nueva oficina en Itajaí, Brasil, marca otro hito importante en nuestra continua historia de éxito.';
 
+// 2024 LP PARTNERS NOVO
+$_lang['pt']['h_paragrafo_2024_lpartners'] = 'No ano em que completamos 18 anos de existencia, muitas mudanças estao acontecendo, novos desafios, novo escritorio em Itajai, novos produtos, novas contratações …  sempre visando o crescimento, a melhoria nos nossos serviços aos nossos parceiros e evolucao. Com o objetivo de elevar nossa empresa para um outro nivel, decidimos que seria a hora de fazermos mais algumas mudanças, que vão possibilitar um aprimoramento estrutural e funcional, dando uma conotação ainda mais Internacional e ampla para a empresa, já que atuamos globalmente, mas tambem em mercados domesticos. A principal mudança é a evolucao e alteração do nome LPexport para LPartners International. Em termos de estrutura  hoje contamos com escritorios em Dubai, Brasil e Hong Kong. Estamos agora iniciando uma nova operação no Uruguay, visando dar mais celeridade nas nossas transações. A LPexport continuará existido até que a migração de toda a operação seja absorvida pela LPartners International, visando assim a transição completa.';  
+
+$_lang['en']['h_paragrafo_2024_lpartners'] = 'In the year in which we celebrate 18 years of existence, many changes are happening, new challenges, new office in Itajai, new products, new hires... always aiming for growth, improvement in our services to our partners and evolution. With the aim of taking our company to another level, we decided that it would be time to make some more changes, which will enable structural and functional improvement, giving an even more international and broader connotation to the company, since we operate globally, but also in domestic markets. The main change is the evolution and change of the name LPexport to LPartners International. In terms of structure, we currently have offices in Dubai, Brazil and Hong Kong. We are now starting a new operation in Uruguay, aiming to speed up our transactions. LPexport will continue to exist until the migration of the entire operation is absorbed by LPartners International, thus aiming for a complete transition.';
+
+$_lang['es']['h_paragrafo_2024_lpartners'] = 'En el año en que celebramos 18 años de existencia, muchos cambios están sucediendo, nuevos desafíos, nueva oficina en Itajai, nuevos productos, nuevas contrataciones... siempre buscando el crecimiento, la mejora en el servicio a nuestros socios y la evolución. Con el objetivo de llevar nuestra empresa a otro nivel, decidimos que sería momento de hacer algunos cambios más, que permitan una mejora estructural y funcional, dándole una connotación aún más internacional y más amplia a la empresa, ya que operamos globalmente, pero también en los mercados internos. El principal cambio es la evolución y cambio del nombre LPexport a LPartners International. En cuanto a estructura, actualmente contamos con oficinas en Dubai, Brasil y Hong Kong. Ahora estamos iniciando una nueva operación en Uruguay, con el objetivo de acelerar nuestras transacciones. LPexport seguirá existiendo hasta que la migración de toda la operación sea absorbida por LPartners International, apuntando así a una transición completa.';
+
 
 
 
@@ -676,9 +683,13 @@ $_lang['pt']['asia'] 				= 'ÁSIA';
 $_lang['en']['asia'] 				= 'ASIA';
 $_lang['es']['asia'] 				= 'ASIA';
 
-$_lang['pt']['cei_europa'] 			= 'CEI E LESTE EUROPEU';
-$_lang['en']['cei_europa'] 			= 'CIS AND EAST EUROPE';
-$_lang['es']['cei_europa'] 			= 'CEI Y EUROPA DEL ESTE';
+$_lang['pt']['cei_europa'] 			= 'LESTE EUROPEU';
+$_lang['en']['cei_europa'] 			= 'EAST EUROPE';
+$_lang['es']['cei_europa'] 			= 'EUROPA DEL ESTE';
+
+$_lang['pt']['cis'] 				= 'CI';
+$_lang['en']['cis'] 				= 'CIS';
+$_lang['es']['cis'] 				= 'CI';
 
 $_lang['pt']['cei_europa_ru'] 		= 'RÚSSIA, CEI E LESTE EUROPEU';
 $_lang['en']['cei_europa_ru'] 		= 'RUSSIA, CIS AND EAST EUROPE';
@@ -784,9 +795,9 @@ $_lang['es']['hk_comercial']				= 'Manager - Asia';
 
 //contato - cargos
  //itajaí
-$_lang['pt']['diretor_comercial']			= 'Diretor Comercial';
-$_lang['en']['diretor_comercial']			= 'Commercial Director';
-$_lang['es']['diretor_comercial']			= 'Director Comercial';
+$_lang['pt']['diretor_comercial']			= 'Diretor Geral';
+$_lang['en']['diretor_comercial']			= 'Managing Director';
+$_lang['es']['diretor_comercial']			= 'Director General';
 
 $_lang['pt']['gerente_de_compras'] 			= 'Gerente de Compras';
 $_lang['en']['gerente_de_compras'] 			= 'Sourcing Manager';

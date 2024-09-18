@@ -137,7 +137,20 @@
         <div style="margin: 50px 0;">
             <div class="container">
 
-
+            <div class="columns">
+                    <div class="column is-6-desktop is-12-mobile waypoint animation_bottom">
+                        <div class="relative left">
+                            <div class="ano_esquerda">2024</div>
+                            <div class="marcador"></div>
+                            <div class="texto_direita">
+                                <p class="has-text-justify">
+                                    <?=$_lang[$lang]['h_paragrafo_2024_lpartners'];?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-6-desktop is-hidden-mobile"></div>
+                </div>
 
 
                 <div class="columns">

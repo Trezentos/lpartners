@@ -1060,13 +1060,13 @@ article .hover_gray:hover{opacity: 1;}
 .nossa_historia .ano_esquerda {
     height: 116px;
     width: 116px;
-    border: 3px solid #1772a5;
+    border: 3px solid #007d35;
     border-radius: 50%;
     text-align: center;
     line-height: 112px;
     font-size: 36px;
     font-weight: 700;
-    color: #1772a5;
+    color: #007d35;
     position: absolute;
     left: 408px;
 }
@@ -1074,13 +1074,13 @@ article .hover_gray:hover{opacity: 1;}
 .nossa_historia .ano_direita {
     height: 116px;
     width: 116px;
-    border: 3px solid #1772a5;
+    border: 3px solid #007d35;
     border-radius: 50%;
     text-align: center;
     line-height: 112px;
     font-size: 36px;
     font-weight: 700;
-    color: #1772a5;
+    color: #007d35;
     position: absolute;
     left: 136px;
 }
@@ -1154,12 +1154,17 @@ article .hover_gray:hover{opacity: 1;}
 /* ======= MERCADOS ======= */
 
 .hexagon.large { transform: scale(2) rotate(33deg); margin-right: 8px; }
-.escritorios-mapa.mercados .mapa .marc-1{ position: absolute; top: 500px; left: 330px; }
+.escritorios-mapa.mercados .mapa .marc-1{ position: absolute; top: 380px; left: 332px; }
 
 .escritorios-mapa.mercados .mapa .marc-11{ position: absolute; top: 200px; left: 200px; }
 .escritorios-mapa.mercados .mapa .marc-11 .hexagon{ background: #ed1c24; }
 .escritorios-mapa.mercados .mapa .marc-11 .hexagon:before{ border-bottom: 4.04px solid #ed1c24; }
 .escritorios-mapa.mercados .mapa .marc-11 .hexagon:after{ border-top: 4.04px solid #ed1c24; }
+
+.escritorios-mapa.mercados .mapa .marc-12{ position: absolute; top: 160px; left: 670px; }
+.escritorios-mapa.mercados .mapa .marc-12 .hexagon{ background: #143062; }
+.escritorios-mapa.mercados .mapa .marc-12 .hexagon:before{ border-bottom: 4.04px solid #143062; }
+.escritorios-mapa.mercados .mapa .marc-12 .hexagon:after{ border-top: 4.04px solid #143062; }
 
 .escritorios-mapa.mercados .mapa .marc-2{ position: absolute; top: 380px; left: 625px; }
 .escritorios-mapa.mercados .mapa .marc-2 .hexagon{ background: #ffc006; }
@@ -2763,13 +2768,14 @@ footer .logo-footer{width: 180px;}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
     /* MERCADOS */
+    .escritorios-mapa.mercados .mapa .marc-12{left: 610px;}
     .escritorios-mapa.mercados .mapa .marc-11{left: 120px;}
     .escritorios-mapa.mercados .mapa .marc-1{left: 265px;}
     .escritorios-mapa.mercados .mapa .marc-2{left: 525px;}
     .escritorios-mapa.mercados .mapa .marc-3{left: 620px;}
     .escritorios-mapa.mercados .mapa .marc-4{left: 840px;}
     .escritorios-mapa.mercados .mapa .marc-5{left: 555px;}
-    .escritorios-mapa.mercados .mapa .marc-6{left: 780px;}
+    .escritorios-mapa.mercados .mapa .marc-6{left: 860px;}
     .escritorios-mapa.mercados .mapa .marc-7{left: 180px;}
 
     .escritorios .owl-nav {
@@ -3008,12 +3014,13 @@ footer .logo-footer{width: 180px;}
 
     /* MERCADOS */
     .escritorios-mapa.mercados .mapa .marc-11{left: 30px;}
+    .escritorios-mapa.mercados .mapa .marc-12{left: 450px;}
     .escritorios-mapa.mercados .mapa .marc-1{left: 135px;}
     .escritorios-mapa.mercados .mapa .marc-2{left: 415px;}
     .escritorios-mapa.mercados .mapa .marc-3{left: 440px;}
     .escritorios-mapa.mercados .mapa .marc-4{left: 675px;}
     .escritorios-mapa.mercados .mapa .marc-5{left: 400px;}
-    .escritorios-mapa.mercados .mapa .marc-6{left: 600px;}
+    .escritorios-mapa.mercados .mapa .marc-6{left: 700px;}
     .escritorios-mapa.mercados .mapa .marc-7{left: 60px;}
 
     .escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-1 {left: 170px;}
@@ -3240,6 +3247,7 @@ footer .logo-footer{width: 180px;}
 
 
     /* BANNER */
+    /* .container_slide { aspect-ratio: 1/1; } */
     .container_slide{padding: 0; margin-top: 0; margin-bottom: 0px;}
     .container_slide .cycle-prev, .container_slide .cycle-next{top: 43%; width: 40px; height: 40px;}
     .container_slide .cycle-next{right: 5px;}
@@ -3325,9 +3333,13 @@ footer .logo-footer{width: 180px;}
         top: 350px;
         right: 50%;
         transform: translateX(50%);
-        width: 110%;
+        width: 111%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .escritorios .owl-theme .owl-nav [class*=owl-]:hover {
+        background-color: transparent !important;
     }
 
     /* SERVICOS */
@@ -3440,8 +3452,9 @@ footer .logo-footer{width: 180px;}
     .mp-icon-2 { transform: scale(0.4); margin-right: 0; }
     .mp-icon-3 { transform: scale(0.4); margin-right: 0; }
 
+    .escritorios-mapa.mercados .mapa .marc-12{top: 41px; left: 202px;}
     .escritorios-mapa.mercados .mapa .marc-11{top: 60px; left: 60px;}
-    .escritorios-mapa.mercados .mapa .marc-1{top: 140px; left: 113px;}
+    .escritorios-mapa.mercados .mapa .marc-1{ top: 118px; left: 103px;}
     .escritorios-mapa.mercados .mapa .marc-2{top: 120px; left: 195px;}
     .escritorios-mapa.mercados .mapa .marc-3{top: 93px; left: 217px;}
     .escritorios-mapa.mercados .mapa .marc-4{top: 105px; left: 280px;}

@@ -35,6 +35,7 @@ get_header();
 			<div class="wrap relative">
 				<div class="marc-1 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['mercosul'];?></div>
 				<div class="marc-11 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['america_do_norte'];?></div>
+				<div class="marc-12 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['cis'];?></div>
 				<div class="marc-7 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['caribe'];?></div>
 				<div class="marc-2 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['africa'];?></div>
 				<div class="marc-3 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['oriente_medio'];?></div>

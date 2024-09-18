@@ -197,7 +197,7 @@ jQuery(document).ready(function($)
 				$('header .nav-menu li .sub-empresa').css({'height':'0'});
 				$(this).removeClass('is-active-sub');
 			}else{
-				$('header .nav-menu li .sub-empresa').css({'height':'47'});
+				$('header .nav-menu li .sub-empresa').css({'height':'92'});
 				$(this).addClass('is-active-sub');
 			}
 		});

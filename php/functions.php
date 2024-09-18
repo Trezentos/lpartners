@@ -1017,6 +1017,7 @@ function get_header() {
 						
 						<ul class="sub-empresa">
 							<li><a href="'.HTTP.'institucional/'.$lang.'">'.$_lang[$lang]['menu_institucional'].'</a></li>
+							<li><a href="'.HTTP.'historia/'.$lang.'">'.$_lang[$lang]['menu_historia'].'</a></li>
 						</ul>
 					</li>
 					<li>
@@ -1106,7 +1107,7 @@ function get_header() {
 						
 						<ul class="sub-empresa">
 							<li><a href="'.HTTP.'institucional/'.$lang.'">'.$_lang[$lang]['menu_institucional'].'</a></li>
-							
+							<li><a href="'.HTTP.'historia/'.$lang.'">'.$_lang[$lang]['menu_historia'].'</a></li>
 						</ul>
 					</li>
 					<li>
@@ -1152,14 +1153,52 @@ function get_footer() {
 	global $titulo, $permalink, $keywords, $description, $db, $tables, $_lang, $lang;
 
 	$_html[] = '
+	<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500 Index"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100 Cash CFD"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 	<footer>
 		<div class="wrap inf relative is-hidden-mobile">
 			<div class="columns is-multiline waypoint animation_bottom">
 				<div class="column is-2" style="position:relative;">
 					<h3>'.$_lang[$lang]['menu_empresa'].'</h3>
 					<a href="'.HTTP.'institucional/'.$lang.'" class="link">'.$_lang[$lang]['menu_empresa'].'</a>
+					<a href="'.HTTP.'historia/'.$lang.'" class="link">'.$_lang[$lang]['historia'].'</a>
 					<a href="'.HTTP.'contato/'.$lang.'" class="link">'.$_lang[$lang]['nossos_escritorios'].'</a>
 					<a href="'.HTTP.'indices-financeiros/'.$lang.'" class="link '.($lang == "pt"?"":"is-hidden").'">Índices Financeiros</a>
+
 				</div>
 				<div class="column is-2">
 					<h3>'.$_lang[$lang]['menu_produtos'].'</h3>

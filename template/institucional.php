@@ -170,7 +170,9 @@ get_header();
 				<?php foreach($qParceiros as $rs) { ?>
 					
 					<div class="column is-3 has-text-centered waypoint animation_bottom">
-						<a href="http://<?= $rs->link; ?>" target="_blank"><img src="<?= HTTP_UPLOADS_IMG.$rs->imagem; ?>"></a>
+						<?php if($rs->link) { ?> <a href="http://<?= $rs->link; ?>" title="<?= $rs->titulo;?>" target="_blank"> <?php } ?>
+							<img alt="logo da <?= $rs->titulo;?>" title="<?= $rs->titulo;?>" src="<?= HTTP_UPLOADS_IMG.$rs->imagem; ?>">
+						<?php if($rs->link){ ?></a> <?php } ?>
 					</div>
 
 				<?php } ?>

@@ -50,12 +50,12 @@ add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carous
 
 						<div class="setores">
 
-							<!-- <h4>Manager</h4>
+							<h4>Manager</h4>
 								
-							<strong id="nome-setor">Gustavo Ribeiro Brandao</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:gustavo@lpartners.net">gustavo@Lpartners.net</a></span><br>
+							<strong id="nome-setor">Carolina Michelon</strong><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:carolina@lpartners.net">carolina@Lpartners.net</a></span><br>
 
-							<br> -->
+							<br>
 
 							<h4>Commercial Requirements</h4>
 								
@@ -151,7 +151,7 @@ add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carous
 
 						<div class="setores">
 
-							<h4><?=$_lang[$lang]['diretor_geral']; ?></h4>
+							<h4><?=$_lang[$lang]['diretor_comercial'];?></h4>
 
 							<strong>Luiz Pedro Bertuol</strong><br>
 							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luizbertuol@lpartners.net"> luizbertuol@Lpartners.net</a></span><br>

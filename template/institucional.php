@@ -77,6 +77,7 @@ get_header();
 			</div>
 		</div>
 	</section> -->
+	
 
 
 	<section class="mvv">
@@ -160,6 +161,51 @@ get_header();
 			</div>
 		</div>
 	 </section> -->
+
+	 <section class="timeline">
+		<div class="wrap">
+			<h1 class="has-text-centered waypoint animation_bottom"> <?= $_lang[$lang]['evolucao_marca'];  ?> </h1>
+			<div class="columns" style="align-items: center;">
+				<div class="column is-one-fifth has-text-centered waypoint animation_left">
+					<div>
+						<img src="<?php echo HTTP; ?>img/logo-2006-lpexport.jpg"/>
+					</div>
+					<div class="ano">2006</div>
+					<!-- <p class="has-text-justify">Fundador da empresa, realiza um sonho antigo, dá início a LP Export em Dubai, Emirados Arabes Unidos. Na época, com mais de 25 anos de atuação no mercado internacional de carnes, sua intenção inicial é promover a carne brasileira nos países do Oriente Médio e Rússia.</p> -->
+				</div>
+				<div class="column is-one-fifth has-text-centered waypoint animation_bottom">
+					<div>
+						<img src="<?php echo HTTP; ?>img/logo-2008-lpexport.jpg"/>
+					</div>
+					<div class="ano">2008</div>
+					<!-- <p class="has-text-justify">O horizonte da empresa se amplia e a LP Export vai em busca de novas parcerias, inclusive de outras origens. Consequentemente, cresce significativamente o número de fornecedores, dentre os quais agora constam americanos, europeus e asiáticos.</p> -->
+				</div>
+				<div class="column is-one-fifth has-text-centered waypoint animation_right">
+					<div>
+						<img src="<?php echo HTTP; ?>img/logo-2010-lpexport.jpg"/>
+					</div>
+					<div class="ano">2010</div>
+					<!-- <p class="has-text-justify">Estruturada, a empresa investe maciçamente na participação em Feiras e outros eventos e o resultado é inevitável: as operações crescem 20%, com exportações para 50 países neste ano.</p> -->
+				</div>
+				<div class="column is-one-fifth has-text-centered waypoint animation_right">
+					<div>
+						<img src="<?php echo HTTP; ?>img/logo-2018-lpexport.jpg"/>
+					</div>
+					<div class="ano">2018</div>
+					<!-- <p class="has-text-justify">Estruturada, a empresa investe maciçamente na participação em Feiras e outros eventos e o resultado é inevitável: as operações crescem 20%, com exportações para 50 países neste ano.</p> -->
+				</div>
+				<div class="column is-one-fifth has-text-centered waypoint animation_right">
+					<div>
+						<img src="<?php echo HTTP; ?>img/logo-2024-lpartners.jpg"/>
+					</div>
+					<div class="ano">2024</div>
+					<!-- <p class="has-text-justify">Estruturada, a empresa investe maciçamente na participação em Feiras e outros eventos e o resultado é inevitável: as operações crescem 20%, com exportações para 50 países neste ano.</p> -->
+				</div>
+				
+
+			</div>
+		</div>
+	</section>
 
 	<section class="parceiros">
 		<div class="wrap">

@@ -31,6 +31,8 @@ get_header(); ?>
 					<h1 class="waypoint animation_right"><?php echo $_lang[$lang]['menu_pesquisa_mercadologica']; ?></h1>
 
 					<img src="<?php echo HTTP; ?>img/Inteligencia_de_mercado.jpg" class="waypoint animation_right">
+					
+					<img src="<?php echo HTTP; ?>img/inteligencia-de-mercado.jpg" class="waypoint animation_right">
 
 					<br><br>
 

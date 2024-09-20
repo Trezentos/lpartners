@@ -33,18 +33,32 @@ get_header();
 		<p class="waypoint animation_bottom"><?php echo $_lang[$lang]['escritorios_textos']; ?></p>
 		<div class="mapa has-text-left">
 			<div class="wrap relative">
-				<div class="marc-1 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['mercosul'];?></div>
-				<div class="marc-11 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['america_do_norte'];?></div>
-				<div class="marc-12 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['cis'];?></div>
-				<div class="marc-7 waypoint animation_left"><div class="hexagon large"></div><?=$_lang[$lang]['caribe'];?></div>
-				<div class="marc-2 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['africa'];?></div>
-				<div class="marc-3 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['oriente_medio'];?></div>
-				<div class="marc-4 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['asia'];?></div>
-				<div class="marc-5 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['cei_europa'];?></div>
-				<div class="marc-6 waypoint animation_right"><div class="hexagon large"></div><?=$_lang[$lang]['oceania'];?></div>
-				<div class="marc-map-icon waypoint animation_left mp-icon-1"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
-				<div class="marc-map-icon waypoint animation_right mp-icon-2"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
-				<div class="marc-map-icon waypoint animation_left mp-icon-3"><img src="<?= HTTP.'img/lp-icon.png'?>"></div>
+				<div class="marc-1  waypoint animation_left">
+					<div class="hexagon large"></div><span><?=$_lang[$lang]['mercosul'];?></span>
+				</div>
+				<div class="marc-11  waypoint animation_left"><div class="hexagon large"></div><span><?=$_lang[$lang]['america_do_norte'];?></span></div>
+				<div class="marc-12  waypoint animation_left"><div class="hexagon large"></div><span><?=$_lang[$lang]['cis'];?></span></div>
+				<div class="marc-7  waypoint animation_left"><div class="hexagon large"></div><span><?=$_lang[$lang]['caribe'];?></span></div>
+				<div class="marc-2  waypoint animation_right"><div class="hexagon large"></div><span><?=$_lang[$lang]['africa'];?></span></div>
+				<div class="marc-3  waypoint animation_right"><div class="hexagon large"></div><span><?=$_lang[$lang]['oriente_medio'];?></span></div>
+				<div class="marc-4  waypoint animation_right"><div class="hexagon large"></div><span><?=$_lang[$lang]['asia'];?></span></div>
+				<div class="marc-5  waypoint animation_right"><div class="hexagon large"></div><span><?=$_lang[$lang]['cei_europa'];?></span></div>
+				<div class="marc-6  waypoint animation_right"><div class="hexagon large"></div><span><?=$_lang[$lang]['oceania'];?></span></div>
+
+				<div class="marc-map-icon waypoint animation_left mp-icon-1 lp-marc">
+					<img src="<?= HTTP.'img/lp-icon.png'?>"><span><?=$_lang[$lang]['brasil_marc'];?></span>	
+				</div>
+
+
+				<div class="marc-map-icon waypoint animation_left mp-icon-4 lp-marc">
+					<img src="<?= HTTP.'img/lp-icon.png'?>"><span><?=$_lang[$lang]['uruguai_marc'];?></span>
+				</div>
+				<div class="marc-map-icon waypoint animation_right mp-icon-2 lp-marc">
+					<img src="<?= HTTP.'img/lp-icon.png'?>"><span><?=$_lang[$lang]['dubai_marc'];?></span>
+				</div>
+				<div class="marc-map-icon waypoint animation_left mp-icon-3 lp-marc">
+					<img src="<?= HTTP.'img/lp-icon.png'?>"><span><?=$_lang[$lang]['hongkong_marc'];?></span>
+			</div>
 			</div>
 		</div>
 	</section>

@@ -1160,24 +1160,28 @@ function get_footer() {
   {
   "symbols": [
     {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500 Index"
+      "proName": "FX_IDC:USDBRL",
+      "title": "USD to BRL"
     },
     {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "US 100 Cash CFD"
+      "proName": "FX_IDC:USDEUR",
+      "title": "USD to EUR"
     },
     {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR to USD"
+      "proName": "FX_IDC:USDHKD",
+      "title": "USD to HKD"
     },
     {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "Bitcoin"
+      "proName": "FX_IDC:USDRUB",
+      "title": "USD to RUB"
     },
     {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "Ethereum"
+      "proName": "FX_IDC:USDAED",
+      "title": "USD to AED"
+    },
+    {
+      "proName": "FX_IDC:USDJPY",
+      "title": "USD to JPY"
     }
   ],
   "showSymbolLogo": true,
@@ -1188,6 +1192,8 @@ function get_footer() {
 }
   </script>
 </div>
+
+
 <!-- TradingView Widget END -->
 	<footer>
 		<div class="wrap inf relative is-hidden-mobile">
@@ -1197,14 +1203,15 @@ function get_footer() {
 					<a href="'.HTTP.'institucional/'.$lang.'" class="link">'.$_lang[$lang]['menu_empresa'].'</a>
 					<a href="'.HTTP.'historia/'.$lang.'" class="link">'.$_lang[$lang]['historia'].'</a>
 					<a href="'.HTTP.'contato/'.$lang.'" class="link">'.$_lang[$lang]['nossos_escritorios'].'</a>
-					<a href="'.HTTP.'indices-financeiros/'.$lang.'" class="link '.($lang == "pt"?"":"is-hidden").'">Índices Financeiros</a>
+					<!-- <a href="'.HTTP.'indices-financeiros/'.$lang.'" class="link '.($lang == "pt"?"":"is-hidden").'">Índices Financeiros</a> -->
 
 				</div>
 				<div class="column is-2">
 					<h3>'.$_lang[$lang]['menu_produtos'].'</h3>
-					<a href="'.HTTP.'produtos/pork/'.$lang.'" class="link">'.$_lang[$lang]['porco'].'</a>
-					<a href="'.HTTP.'produtos/poltry/'.$lang.'" class="link">'.$_lang[$lang]['frango'].'</a>
 					<a href="'.HTTP.'produtos/beef/'.$lang.'" class="link">'.$_lang[$lang]['boi'].'</a>
+					<a href="'.HTTP.'produtos/poltry/'.$lang.'" class="link">'.$_lang[$lang]['frango'].'</a>
+					<a href="'.HTTP.'produtos/pork/'.$lang.'" class="link">'.$_lang[$lang]['porco'].'</a>
+					<a href="'.HTTP.'produtos/fish/'.$lang.'" class="link">'.$_lang[$lang]['peixe'].'</a>
 					<a href="'.HTTP.'produtos/lamb/'.$lang.'" class="link">'.$_lang[$lang]['cordeiro'].'</a>
 					<a href="'.HTTP.'produtos/turkey/'.$lang.'" class="link">'.$_lang[$lang]['peru'].'</a>
 				</div>
@@ -1223,7 +1230,7 @@ function get_footer() {
 					<a href="'.HTTP.'mercados/'.$lang.'" style="text-transform: capitalize!important;" class="link">'.$_lang[$lang]['orientem_footer'].'</a>
 					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['asia_footer'].'</a>
 					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['cis_eu_footer'].'</a>
-					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['russia_footer'].'</a>
+					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['leste_europeu_footer'].'</a>
 					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['mercosul_footer'].'</a>
 					<a href="'.HTTP.'mercados/'.$lang.'" class="link">'.$_lang[$lang]['caribe_footer'].'</a>
 				</div>

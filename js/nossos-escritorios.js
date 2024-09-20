@@ -19,7 +19,7 @@ jQuery(document).ready(function($)
 				margin: 30,
 			},
 			1025: {
-				items: 3,
+				items: 4,
 				// margin: 30,
 			}
 		}

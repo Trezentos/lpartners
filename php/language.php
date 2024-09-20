@@ -141,9 +141,9 @@ $_lang['es']['empresa_frase_maior'] = 'Exportando productos alimenticios a <stro
 
 
 
-$_lang['pt']['empresa_tags'] = 'Exportação - Trading - Produtos - Carne de Frango - Carne Suína - Carne Bovina - Peixe - Mercado - Brasil';
-$_lang['en']['empresa_tags'] = 'Export - Trading - Products - Chicken Meat - Pork Meat - Beef Meat - Fish - Markets - Brazil';
-$_lang['es']['empresa_tags'] = 'Exportación - Trading - Productos - Carne de pollo - Carne de Cerdo - Carne Bovina - Pescado - Mercados - Brasil';
+$_lang['pt']['empresa_tags'] = 'LP Export - Negócios Alimentícios - Produtos - Carne de Frango - Carne Suína - Carne Bovina - Peixe - Carne de Cordeiro - Carne de Peru - Produtos Lácteos - Indústria Alimentícia';
+$_lang['en']['empresa_tags'] = 'LP Export - Food Business - Products - Chicken Meat - Pork Meat - Beef Meat - Fish - Lamb Meat - Turkey Meat - Dairy Products - Food Industry';
+$_lang['es']['empresa_tags'] = 'LP Export - Negocio de Alimentos - Productos - Carne de Pollo - Carne de Cerdo - Carne de Vacuno - Pescado - Carne de Cordero - Carne de Pavo - Productos Lácteos - Industria Alimentaria';
 
 
 $_lang['pt']['assessoria_texto'] = 'Para que a internacionalização do produto e/ou da marca aconteça dentro da normalidade.';
@@ -184,25 +184,25 @@ $_lang['en']['visao'] 				= 'VISION';
 $_lang['es']['visao'] 				= 'VISIÓN';
 
 $_lang['pt']['pilares'] 			= 'PILARES';
-$_lang['en']['pilares'] 			= 'PILLARS';
-$_lang['es']['pilares'] 			= 'PILARES';
+$_lang['en']['pilares'] 			= 'CORE VALUES';
+$_lang['es']['pilares'] 			= 'FUNDAMENTAIS';
 
 $_lang['pt']['inst_intro_titulo'] = 'COM MAIS DE QUATRO DÉCADAS DE EXPERIÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO';
 $_lang['en']['inst_intro_titulo'] = 'WITH MORE THAN FOUR DECADES OF EXPERIENCE, SOLIDITY, DYNAMISM AND SUCCESS';
 $_lang['es']['inst_intro_titulo'] = 'CON MÁS DE CUATRO DÉCADAS DE EXPERIENCIA, SOLIDEZ, DINAMISMO Y ÉXITO';
 
-$_lang['pt']['inst_intro_texto'] = 'A LPartners é uma evolução da LP Export, na qual negocia produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes e Hong Kong. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
+$_lang['pt']['inst_intro_texto'] = 'A LPartners é uma evolução da LP Export, na qual negocia produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes, Hong Kong e Uruguai. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
 
-$_lang['en']['inst_intro_texto'] = 'LPartners has exported food products to more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates and Hong Kong. Through a serious and solid work, the expertise provided throughout the years has leaded LPartners to build a reliable and long-lasting relationship with its customers and suppliers, as the company purpose consists of developing ways to consolidate the commercial relationship between the parties, including establishing brand loyalty and regularity in all operations. Additionally, its team is made up of professionals with many years of experience in the international meat market, always ready to assist its business partners to identify the best opportunity available for each transaction. This is LPartners, delivering on its commitments to your business!';
+$_lang['en']['inst_intro_texto'] = 'LPartners is an evolution of LP Export, which has been trading food products for more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates, Hong Kong and Uruguay. The knowledge acquired over these years has enabled LPartners to build a reliable and lasting relationship with its customers and suppliers, as its actions always value the consolidation of the commercial relationship between the parties, through serious and consistent work, which takes into account brand loyalty and regularity in operations. Furthermore, its team is made up of professionals with many years of experience in the international meat market and is available to its partners to help them identify the best opportunity available in each operation. This is LPartners, fulfilling its commitments to your business!';
 
-$_lang['es']['inst_intro_texto'] = 'LPartners ha exportado productos alimenticios a más de 80 países desde 2006, con oficinas estratégicamente ubicadas en Brasil, Emiratos Árabes y Hong Kong. El conocimiento adquirido a lo largo de estos años, posibilitó a LPartners construir una relación confiable y duradera junto a sus clientes y proveedores, pues su actuación valora siempre por la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que lleva en consideración la fidelización de las marcas y la regularidad en las operaciones. Además, su equipo es formado por profesionales con muchos años de experiencia en el mercado internacional de carnes y está a disposición de sus socios para ayudarles a identificar la mejor oportunidad disponible en cada operación. ¡Esta es LPartners, cumpliendo sus compromisos con su negocio!';
-
-
+$_lang['es']['inst_intro_texto'] = 'LPartners es una evolución de LP Export, que comercializa productos alimenticios para más de 80 países desde 2006, con oficinas ubicadas estratégicamente en Brasil, Emiratos Árabes Unidos, Hong Kong y Uruguay. El conocimiento adquirido a lo largo de estos años ha permitido a LPartners construir una relación confiable y duradera con sus clientes y proveedores, ya que sus acciones siempre valoran la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que tiene en cuenta la lealtad a la marca y regularidad en las operaciones. Además, su equipo está formado por profesionales con muchos años de experiencia en el mercado cárnico internacional y está a disposición de sus socios para ayudarles a identificar la mejor oportunidad disponible en cada operación. ¡Esto es LPartners, cumpliendo con sus compromisos con su negocio!';
 
 
-$_lang['pt']['missao_texto']		= 'Prestar aos nossos fornecedores e clientes o mais alto nível de serviço na comercialização de carnes e derivados no mercado internacional, agregando valor em suas operações, sempre comprometidos em construir parcerias de longo prazo, baseadas na confiança, transparência e segurança em todas as transações.';
-$_lang['en']['missao_texto']		= 'To provide our suppliers and customers with the highest level of service in commercializing meat products worldwide, adding value to their operation, while remaining committed to building long-term business partnerships based on trust, transparency and safety in all transactions.'; 
-$_lang['es']['missao_texto']		= 'Proporcionar a nuestros proveedores y clientes el más alto nivel de servicio en la comercialización de la carne y de los productos derivados en el mercado internacional, agregando valor a sus operaciones, siempre comprometidos a construir relaciones a largo plazo basadas en la confianza, la transparencia y la seguridad en todas las transacciones.';
+
+
+$_lang['pt']['missao_texto']		= 'Prestar aos nossos fornecedores e clientes o mais alto nível de serviço na comercialização de produtos alimentícios no mercado internacional, agregando valor em suas operações, sempre comprometidos em construir parcerias de longo prazo, baseadas na confiança, transparência e segurança em todas as transações.';
+$_lang['en']['missao_texto']		= 'To provide our suppliers and customers with the highest level of service in commercializing food products worldwide, adding value to their operation, while remaining committed to building long-term business partnerships based on trust, transparency and safety in all transactions.'; 
+$_lang['es']['missao_texto']		= 'Proporcionar a nuestros proveedores y clientes el más alto nivel de servicio en la comercialización de productos alimenticios en el mercado internacional, agregando valor a sus operaciones, siempre comprometidos a construir relaciones a largo plazo basadas en la confianza, la transparencia y la seguridad en todas las transacciones.';
 
 $_lang['pt']['visao_texto'] 		= 'Ser reconhecida por nossos fornecedores, clientes e colaboradores, como a melhor empresa em nosso segmento de atuação, pela excelência dos serviços prestados, credibilidade, conhecimento especializado e relacionamentos comerciais duradouros.';
 $_lang['en']['visao_texto'] 		= 'To be recognized by our suppliers, customers and employees, as the best company in our segment, for the provision of excellent service quality, expertise, credibility, and, long-lasting business relationships.';
@@ -666,6 +666,21 @@ $_lang['pt']['caribe'] 				= 'CARIBE';
 $_lang['en']['caribe'] 				= 'CARIBBEAN';
 $_lang['es']['caribe'] 				= 'CARIBE';
 
+$_lang['pt']['brasil_marc'] 		= 'BRASIL';
+$_lang['en']['brasil_marc'] 		= 'BRAZIL';
+$_lang['es']['brasil_marc'] 		= 'BRASIL';
+
+$_lang['pt']['uruguai_marc'] 		= 'URUGUAI';
+$_lang['en']['uruguai_marc'] 		= 'URUGUAY';
+$_lang['es']['uruguai_marc'] 		= 'URUGUAY';
+
+$_lang['pt']['hongkong_marc'] 		= 'HONG KONG';
+$_lang['en']['hongkong_marc'] 		= 'HONG KONG';
+$_lang['es']['hongkong_marc'] 		= 'HONG KONG';
+
+$_lang['pt']['dubai_marc'] 			= 'MATRIZ <br> DUBAI';
+$_lang['en']['dubai_marc'] 			= 'HEAD QUARTER <br> DUBAI';
+$_lang['es']['dubai_marc'] 			= 'OFICINA CENTRAL <br> DUBÁI';
 
 $_lang['pt']['america_do_norte'] 	= 'AMÉRICA DO NORTE';
 $_lang['en']['america_do_norte'] 	= 'NORTH AMERICA';
@@ -687,9 +702,9 @@ $_lang['pt']['cei_europa'] 			= 'LESTE EUROPEU';
 $_lang['en']['cei_europa'] 			= 'EAST EUROPE';
 $_lang['es']['cei_europa'] 			= 'EUROPA DEL ESTE';
 
-$_lang['pt']['cis'] 				= 'CI';
+$_lang['pt']['cis'] 				= 'CEI';
 $_lang['en']['cis'] 				= 'CIS';
-$_lang['es']['cis'] 				= 'CI';
+$_lang['es']['cis'] 				= 'CEI';
 
 $_lang['pt']['cei_europa_ru'] 		= 'RÚSSIA, CEI E LESTE EUROPEU';
 $_lang['en']['cei_europa_ru'] 		= 'RUSSIA, CIS AND EAST EUROPE';
@@ -751,9 +766,9 @@ $_lang['pt']['montevideo_contato'] 				= 'Montevidéu - Uruguai';
 $_lang['en']['montevideo_contato'] 				= 'Montevideo - Uruguay';
 $_lang['es']['montevideo_contato'] 				= 'Montevideo - Uruguay';
 
-$_lang['pt']['montevideo_escritorio']			= 'Montevidéu - Escritório';
-$_lang['en']['montevideo_escritorio']			= 'Montevideo - Office';
-$_lang['es']['montevideo_escritorio']			= 'Montevideo - Oficina';
+$_lang['pt']['montevideo_escritorio']			= 'Escritório';
+$_lang['en']['montevideo_escritorio']			= 'Office';
+$_lang['es']['montevideo_escritorio']			= 'Oficina';
 
 
 //contato - itajaí
@@ -762,9 +777,9 @@ $_lang['pt']['itajai_contato'] 				= 'Itajaí - Brasil';
 $_lang['en']['itajai_contato'] 				= 'Itajaí - Brazil';
 $_lang['es']['itajai_contato'] 				= 'Itajaí - Brasil';
 
-$_lang['pt']['itajai_escritorio']			= 'Itajaí - Escritório';
-$_lang['en']['itajai_escritorio']			= 'Itajaí - Office';
-$_lang['es']['itajai_escritorio']			= 'Itajaí - Oficina';
+$_lang['pt']['itajai_escritorio']			= 'Escritório';
+$_lang['en']['itajai_escritorio']			= 'Office';
+$_lang['es']['itajai_escritorio']			= 'Oficina';
 
 //contato - dubai
 
@@ -772,17 +787,17 @@ $_lang['pt']['dubai_contato'] 				= 'Dubai - EAU';
 $_lang['en']['dubai_contato'] 				= 'Dubai - UAE';
 $_lang['es']['dubai_contato'] 				= 'Dubai - EAU';
 
-$_lang['pt']['db_escritorio_central'] 		= 'Dubai - Matriz';
-$_lang['en']['db_escritorio_central'] 		= 'Dubai - Head Office';
-$_lang['es']['db_escritorio_central'] 		= 'Dubai - Oficina Central';
+$_lang['pt']['db_escritorio_central'] 		= 'Matriz';
+$_lang['en']['db_escritorio_central'] 		= 'Head Office';
+$_lang['es']['db_escritorio_central'] 		= 'Oficina Central';
 
 
 
 //contato - hong kong
 
-$_lang['pt']['hk_escritorio_central'] 		= 'Hong Kong - Escritório';
-$_lang['en']['hk_escritorio_central'] 		= 'Hong Kong - Office';
-$_lang['es']['hk_escritorio_central'] 		= 'Hong Kong - Oficina';
+$_lang['pt']['hk_escritorio_central'] 		= 'Escritório';
+$_lang['en']['hk_escritorio_central'] 		= 'Office';
+$_lang['es']['hk_escritorio_central'] 		= 'Oficina';
 
 $_lang['pt']['hk_comercial_garfield']		= 'Vendas - Ásia';
 $_lang['en']['hk_comercial_garfield']		= 'Sales - Asia';
@@ -913,9 +928,9 @@ $_lang['pt']['asia_footer']			= 'Ásia';
 $_lang['en']['asia_footer']			= 'Asia';
 $_lang['es']['asia_footer']			= 'Asia';
 
-$_lang['pt']['russia_footer']		= 'Rússia';
-$_lang['en']['russia_footer']		= 'Russia';
-$_lang['es']['russia_footer']		= 'Rusia';
+$_lang['pt']['leste_europeu_footer']		= 'Leste Europeu';
+$_lang['en']['leste_europeu_footer']		= 'East Europe';
+$_lang['es']['leste_europeu_footer']		= 'Europa Del Este';
 
 $_lang['pt']['caribe_footer'] 		= 'Caribe';
 $_lang['en']['caribe_footer'] 		= 'Caribbean';
@@ -925,9 +940,9 @@ $_lang['pt']['orientem_footer'] 	= 'Oriente Médio';
 $_lang['en']['orientem_footer'] 	= 'Middle East';
 $_lang['es']['orientem_footer'] 	= 'Medio Oriente';
 
-$_lang['pt']['cis_eu_footer'] 		= 'CEI e Leste Europeu';
-$_lang['en']['cis_eu_footer'] 		= 'CIS and East Europe';
-$_lang['es']['cis_eu_footer'] 		= 'CEI y Europa del Este';
+$_lang['pt']['cis_eu_footer'] 		= 'CEI';
+$_lang['en']['cis_eu_footer'] 		= 'CIS';
+$_lang['es']['cis_eu_footer'] 		= 'CEI';
 
 $_lang['pt']['mercosul_footer']		= 'América do Sul';
 $_lang['en']['mercosul_footer']		= 'South America';

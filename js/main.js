@@ -172,7 +172,7 @@ jQuery(document).ready(function($)
 				$('header .nav-menu li .sub-produtos').css({'height':'0'});
 				$(this).removeClass('is-active-sub');
 			}else{
-				$('header .nav-menu li .sub-produtos').css({'height':'272'});
+				$('header .nav-menu li .sub-produtos').css({'height':'388'});
 				$(this).addClass('is-active-sub');
 			}
 		});
@@ -185,7 +185,7 @@ jQuery(document).ready(function($)
 				$('header .nav-menu li .sub-servicos').css({'height':'0'});
 				$(this).removeClass('is-active-sub');
 			}else{
-				$('header .nav-menu li .sub-servicos').css({'height':'230'});
+				$('header .nav-menu li .sub-servicos').css({'height':'326'});
 				$(this).addClass('is-active-sub');
 			}
 		});
@@ -197,7 +197,7 @@ jQuery(document).ready(function($)
 				$('header .nav-menu li .sub-empresa').css({'height':'0'});
 				$(this).removeClass('is-active-sub');
 			}else{
-				$('header .nav-menu li .sub-empresa').css({'height':'92'});
+				$('header .nav-menu li .sub-empresa').css({'height':'133'});
 				$(this).addClass('is-active-sub');
 			}
 		});

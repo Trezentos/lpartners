@@ -1137,7 +1137,7 @@ article .hover_gray:hover{opacity: 1;}
   position: relative;
   width: 14px; 
   height: 8.08px;
-  background-color: #005f33;
+  background-color: #f7f760;
   margin-right: 4px;
   display: inline-flex;
   transform: rotate(33deg);
@@ -1153,8 +1153,8 @@ article .hover_gray:hover{opacity: 1;}
   border-right: 7px solid transparent;
 }
 
-.hexagon:before { bottom: 100%; border-bottom: 4.04px solid #005f33; }
-.hexagon:after { top: 100%; width: 0; border-top: 4.04px solid #005f33; }
+.hexagon:before { bottom: 100%; border-bottom: 4.04px solid #f7f760; }
+.hexagon:after { top: 100%; width: 0; border-top: 4.04px solid #f7f760; }
 
 
 /* ======= MERCADOS ======= */
@@ -1165,9 +1165,9 @@ article .hover_gray:hover{opacity: 1;}
 .escritorios-mapa.mercados span { position: relative; top: 2px; left: 6px }
 
 .escritorios-mapa.mercados .mapa .marc-11{ position: absolute; top: 200px; left: 200px; }
-.escritorios-mapa.mercados .mapa .marc-11 .hexagon{ background: #f7f760; }
-.escritorios-mapa.mercados .mapa .marc-11 .hexagon:before{ border-bottom: 4.04px solid #f7f760; }
-.escritorios-mapa.mercados .mapa .marc-11 .hexagon:after{ border-top: 4.04px solid #f7f760; }
+.escritorios-mapa.mercados .mapa .marc-11 .hexagon{ background: #ff0301; }
+.escritorios-mapa.mercados .mapa .marc-11 .hexagon:before{ border-bottom: 4.04px solid #ff0301; }
+.escritorios-mapa.mercados .mapa .marc-11 .hexagon:after{ border-top: 4.04px solid #ff0301; }
 
 .escritorios-mapa.mercados .mapa .marc-12{ position: absolute; top: 160px; left: 740px; }
 .escritorios-mapa.mercados .mapa .marc-12 .hexagon{ background: #02bdf4; }
@@ -1207,7 +1207,7 @@ article .hover_gray:hover{opacity: 1;}
 .escritorios-mapa.mercados .mapa .marc-map-icon {position: absolute;  height: 32px; display: flex; align-items: center;}
 .escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-1 {top: 436px; left: 366px;}
 .escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-4 {top: 476px; left: 353px;}
-.escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-2 {top: 265px; left: 712px;}
+.escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-2 {top: 265px; left: 730px;}
 .escritorios-mapa.mercados .mapa .marc-map-icon.mp-icon-3 {top: 285px; left: 895px;}
 
 

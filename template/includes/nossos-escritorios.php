@@ -44,7 +44,7 @@ add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carous
 							<h4><?=$_lang[$lang]['diretor_comercial'];?></h4>
 
 							<strong>Luiz Pedro Bertuol</strong><br>
-							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luizbertuol@lpartners.net"> luizbertuol@Lpartners.net</a></span><br>
+							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luizpedro@lpartners.net"> Luizpedro@Lpartners.net</a></span><br>
 
 							
 
@@ -101,7 +101,7 @@ add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carous
 
 		<h4><?=$_lang[$lang]['diretor_comercial'];?></h4>
 		<strong id="nome-setor">Luciano Colonetti</strong><br>
-		<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luciano@lpartners.net">luciano@Lpartners.net</a></span><br>
+		<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:luciano@lpartners.net">Luciano@Lpartners.net</a></span><br>
 		<!-- <div class="skype-contato">
 			<a class="btn-skype skype-button" id="skype-setor" href="skype:"><i class="fa fa-skype"></i> Skype directly</a>
 		</div> -->

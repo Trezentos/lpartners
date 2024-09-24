@@ -35,7 +35,7 @@ get_header();
         <?php endforeach; ?>
     </ul>
 
-		<div class="lp_container">
+		<div class="lp_container" style="display: none;">
 			<div class="lp_top">
 				LP TRACKING
 				<div class="lp_globe"><i class="fa fa-search" aria-hidden="true"></i></div>

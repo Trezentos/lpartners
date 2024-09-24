@@ -1161,28 +1161,28 @@ function get_footer() {
   "symbols": [
     {
       "proName": "FX_IDC:USDBRL",
-      "title": "USD to BRL"
+      "title": "USD '.$_lang[$lang]['para'].' BRL"
     },
     {
       "proName": "FX_IDC:USDEUR",
-      "title": "USD to EUR"
+      "title": "USD '.$_lang[$lang]['para'].' EUR"
     },
     {
       "proName": "FX_IDC:USDHKD",
-      "title": "USD to HKD"
+      "title": "USD '.$_lang[$lang]['para'].' HKD"
     },
     {
       "proName": "FX_IDC:USDRUB",
-      "title": "USD to RUB"
+      "title": "USD '.$_lang[$lang]['para'].' RUB"
     },
     {
       "proName": "FX_IDC:USDAED",
-      "title": "USD to AED"
+      "title": "USD '.$_lang[$lang]['para'].' AED"
     },
     {
-      "proName": "FX_IDC:USDJPY",
-      "title": "USD to JPY"
-    }
+	"proName": "FX_IDC:USDCNY",
+	"title": "USD '.$_lang[$lang]['para'].' CNY"
+	}
   ],
   "showSymbolLogo": true,
   "isTransparent": false,

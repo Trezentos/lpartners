@@ -188,12 +188,12 @@ $_lang['en']['pilares'] 			= 'CORE VALUES';
 $_lang['es']['pilares'] 			= 'FUNDAMENTAIS';
 
 $_lang['pt']['inst_intro_titulo'] = 'COM MAIS DE QUATRO DÉCADAS DE EXPERIÊNCIA, SOLIDEZ, DINAMISMO E SUCESSO';
-$_lang['en']['inst_intro_titulo'] = 'WITH MORE THAN FOUR DECADES OF EXPERIENCE, SOLIDITY, DYNAMISM AND SUCCESS';
+$_lang['en']['inst_intro_titulo'] = 'WITH ALMOST TWO DECADES OF EXPERIENCE, SOLIDITY, DYNAMISM AND SUCCESS';
 $_lang['es']['inst_intro_titulo'] = 'CON MÁS DE CUATRO DÉCADAS DE EXPERIENCIA, SOLIDEZ, DINAMISMO Y ÉXITO';
 
 $_lang['pt']['inst_intro_texto'] = 'A LPartners é uma evolução da LP Export, na qual negocia produtos alimentícios para mais de 80 países desde 2006, com escritórios estrategicamente localizados no Brasil, Emirados Árabes, Hong Kong e Uruguai. O conhecimento adquirido ao longo desses anos, possibilitou à LPartners construir uma relação confiável e duradoura junto a seus clientes e fornecedores, pois sua atuação preza sempre pela consolidação do relacionamento comercial entre as partes, através de um trabalho sério e consistente, que leva em consideração a fidelização das marcas e a regularidade nas operações. Além disso, sua equipe é formada por profissionais com muitos anos de experiência no mercado internacional de carnes e está a disposição de seus parceiros para ajudá-los a identificar a melhor oportunidade disponível em cada operação. Esta é a LPartners, cumprindo seus compromissos com o seu negócio!';
 
-$_lang['en']['inst_intro_texto'] = 'LPartners is an evolution of LP Export, which has been trading food products for more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates, Hong Kong and Uruguay. The knowledge acquired over these years has enabled LPartners to build a reliable and lasting relationship with its customers and suppliers, as its actions always value the consolidation of the commercial relationship between the parties, through serious and consistent work, which takes into account brand loyalty and regularity in operations. Furthermore, its team is made up of professionals with many years of experience in the international meat market and is available to its partners to help them identify the best opportunity available in each operation. This is LPartners, fulfilling its commitments to your business!';
+$_lang['en']['inst_intro_texto'] = 'LPartners is an evolution of LP Export, which has been trading food products for more than 80 countries since 2006, with offices strategically located in Brazil, the United Arab Emirates, Hong Kong and Uruguay. The knowledge acquired over these years has enabled LPartners to build a reliable and lasting relationship with its customers and suppliers, as its actions always value the consolidation of the commercial relationship between the parties, through serious and consistent work, which takes into account brand loyalty and regularity in operations. Furthermore, its team is made up of professionals with many years of experience in the international meat market and is available to its partners to help them identify the best opportunity available in each operation. This is LPartners, delivering on our commitments to your business!';
 
 $_lang['es']['inst_intro_texto'] = 'LPartners es una evolución de LP Export, que comercializa productos alimenticios para más de 80 países desde 2006, con oficinas ubicadas estratégicamente en Brasil, Emiratos Árabes Unidos, Hong Kong y Uruguay. El conocimiento adquirido a lo largo de estos años ha permitido a LPartners construir una relación confiable y duradera con sus clientes y proveedores, ya que sus acciones siempre valoran la consolidación de la relación comercial entre las partes, a través de un trabajo serio y consistente, que tiene en cuenta la lealtad a la marca y regularidad en las operaciones. Además, su equipo está formado por profesionales con muchos años de experiencia en el mercado cárnico internacional y está a disposición de sus socios para ayudarles a identificar la mejor oportunidad disponible en cada operación. ¡Esto es LPartners, cumpliendo con sus compromisos con su negocio!';
 
@@ -201,11 +201,11 @@ $_lang['es']['inst_intro_texto'] = 'LPartners es una evolución de LP Export, qu
 
 
 $_lang['pt']['missao_texto']		= 'Prestar aos nossos fornecedores e clientes o mais alto nível de serviço na comercialização de produtos alimentícios no mercado internacional, agregando valor em suas operações, sempre comprometidos em construir parcerias de longo prazo, baseadas na confiança, transparência e segurança em todas as transações.';
-$_lang['en']['missao_texto']		= 'To provide our suppliers and customers with the highest level of service in commercializing food products worldwide, adding value to their operation, while remaining committed to building long-term business partnerships based on trust, transparency and safety in all transactions.'; 
+$_lang['en']['missao_texto']		= 'To provide the highest level of service to our suppliers and customers in the global market of food products, adding value to their operations, while committed to long-term business partnerships based on trust, transparency, and safety in all transactions.'; 
 $_lang['es']['missao_texto']		= 'Proporcionar a nuestros proveedores y clientes el más alto nivel de servicio en la comercialización de productos alimenticios en el mercado internacional, agregando valor a sus operaciones, siempre comprometidos a construir relaciones a largo plazo basadas en la confianza, la transparencia y la seguridad en todas las transacciones.';
 
 $_lang['pt']['visao_texto'] 		= 'Ser reconhecida por nossos fornecedores, clientes e colaboradores, como a melhor empresa em nosso segmento de atuação, pela excelência dos serviços prestados, credibilidade, conhecimento especializado e relacionamentos comerciais duradouros.';
-$_lang['en']['visao_texto'] 		= 'To be recognized by our suppliers, customers and employees, as the best company in our segment, for the provision of excellent service quality, expertise, credibility, and, long-lasting business relationships.';
+$_lang['en']['visao_texto'] 		= 'To be recognized by our suppliers, customers, and employees as the leading company in our sector, known for providing exceptional service, expertise, credibility, and developing long-lasting business relationships.';
 $_lang['es']['visao_texto'] 		= 'Ser reconocidos por nuestros proveedores, clientes y empleados, como la mejor empresa en nuestro segmento, por la excelencia de los servicios prestados, la credibilidad, la experiencia y las relaciones comerciales de larga duración.';
 
 
@@ -666,13 +666,13 @@ $_lang['pt']['caribe'] 				= 'CARIBE';
 $_lang['en']['caribe'] 				= 'CARIBBEAN';
 $_lang['es']['caribe'] 				= 'CARIBE';
 
-$_lang['pt']['brasil_marc'] 		= 'BRASIL';
-$_lang['en']['brasil_marc'] 		= 'BRAZIL';
-$_lang['es']['brasil_marc'] 		= 'BRASIL';
+$_lang['pt']['brasil_marc'] 		= 'ITAJAÍ';
+$_lang['en']['brasil_marc'] 		= 'ITAJAÍ';
+$_lang['es']['brasil_marc'] 		= 'ITAJAÍ';
 
-$_lang['pt']['uruguai_marc'] 		= 'URUGUAI';
-$_lang['en']['uruguai_marc'] 		= 'URUGUAY';
-$_lang['es']['uruguai_marc'] 		= 'URUGUAY';
+$_lang['pt']['uruguai_marc'] 		= 'MONTEVIDÉU';
+$_lang['en']['uruguai_marc'] 		= 'MONTEVIDEO';
+$_lang['es']['uruguai_marc'] 		= 'MONTEVIDEO';
 
 $_lang['pt']['hongkong_marc'] 		= 'HONG KONG';
 $_lang['en']['hongkong_marc'] 		= 'HONG KONG';
@@ -919,6 +919,10 @@ $_lang['es']['telefone'] = 'Teléfono: ';
 
 
 /* FOOTER */
+$_lang['pt']['para']		= ' para ';
+$_lang['en']['para']		= ' to ';
+$_lang['es']['para']		= ' a ';
+
 
 $_lang['pt']['africa_footer']		= 'África';
 $_lang['en']['africa_footer']		= 'Africa';

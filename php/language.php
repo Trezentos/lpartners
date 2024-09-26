@@ -787,9 +787,9 @@ $_lang['pt']['dubai_contato'] 				= 'Dubai - EAU';
 $_lang['en']['dubai_contato'] 				= 'Dubai - UAE';
 $_lang['es']['dubai_contato'] 				= 'Dubai - EAU';
 
-$_lang['pt']['db_escritorio_central'] 		= 'Matriz';
-$_lang['en']['db_escritorio_central'] 		= 'Head Office';
-$_lang['es']['db_escritorio_central'] 		= 'Oficina Central';
+$_lang['pt']['db_escritorio_central'] 		= 'Escritório';
+$_lang['en']['db_escritorio_central'] 		= 'Office';
+$_lang['es']['db_escritorio_central'] 		= 'Oficina';
 
 
 

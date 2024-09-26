@@ -334,11 +334,11 @@ $_lang['es']['h_titulo_parceria']					= 'PARCERIA';
 /* Parágrafos */
 
 // 2006
-$_lang['pt']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda a LPartners DMCC em 20 de maio de 2006, em Dubai, Emirados Árabes Unidos.';
+$_lang['pt']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda a LP EXPORT DMCC em 20 de maio de 2006, em Dubai, Emirados Árabes Unidos.';
 
-$_lang['en']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol founds the LPartners DMCC on May 20, 2006 in Dubai, United Arab Emirates.';
+$_lang['en']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol founds the LP EXPORT DMCC on May 20, 2006 in Dubai, United Arab Emirates.';
 
-$_lang['es']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda LPartners DMCC el 20 de mayo de 2006 en Dubai (Emiratos Árabes Unidos).';
+$_lang['es']['h_paragrafo_primeiro_passo'] = 'Luiz Pedro Bertuol funda LP EXPORT DMCC el 20 de mayo de 2006 en Dubai (Emiratos Árabes Unidos).';
 
 
 

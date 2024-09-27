@@ -216,7 +216,9 @@ add_javascript(array('nossos-escritorios.js','jquery.cycle2.min.js', 'owl.carous
 
 							<h4>Commercial Requirements</h4>
 								
-							<strong id="nome-setor">All Markets</strong><br>
+							<br>
+							<br>
+							<strong id="nome-setor">Other Markets</strong><br>
 							<i class="fa fa-envelope"></i> <span id="email-setor">E-mail: <a href="mailto:commercial@lpartners.net">commercial@Lpartners.net</a></span><br>
 						</div>	
 

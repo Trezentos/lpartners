@@ -537,11 +537,11 @@ $_lang['es']['descricao']   	  = 'DESCRIPCIÓN';
 /* SERVIÇOS */
 
 $_lang['pt']['rp_exclusiva_texto']= 'Muito mais do que um simples prestador de serviços. Desenvolvemos um programa de negócios baseado no suporte mútuo entre as empresas para alcançar uma forte sinergia com a estratégia de negócios de nossos fornecedores. Dessa forma, estamos sempre prontos para representar e salvaguardar os interesses de nossos parceiros em qualquer destino, combinando excelência de serviços e conhecimento de mercado, com profissionais experientes e resultados tangíveis.';
-$_lang['en']['rp_exclusiva_texto']= 'Much more than a simple service provider. A developer of a mutually supportive program to reach strong synergy with the suppliers business strategy. Ready to representing and safeguarding its business partners interests globally, combining excelence of services and market knowledge, with experienced professionals and tangible results.';
+$_lang['en']['rp_exclusiva_texto']= 'Much more than a simple service provider. A developer of a mutually supportive program to reach strong synergy with the suppliers business strategy. Our commitment is to represent and protect the interests of our business partners on specific markets or in a global scale, combining excellence of services and market knowledge, with experienced professionals and tangible results.';
 $_lang['es']['rp_exclusiva_texto']= 'Mucho más que un simple proveedor de servicios. Hemos desarrollado un programa basado en el apoyo mutuo entre las empresas para lograr una fuerte sinergia con la estrategia de negocio de nuestros proveedores. De esta manera, estamos siempre dispuestos a representar y proteger los intereses de nuestros socios en cualquier destino, combinando la excelencia en servicios y conocimiento de mercado, con profesionales experimentados y resultados tangibles.';
 
 $_lang['pt']['dev_marcas_texto']  = 'Auxiliamos o processo de gestão da marca a nível internacional, o que envolve criação, promoção e fortalecimento da sua identidade, adequando o produto e sua imagem ao posicionamento estratégico da sua marca.';
-$_lang['en']['dev_marcas_texto']  = 'Assist the brand management process worldwide, which involves creation, promoting and strengthening the brand identity, adequating the product and its image to brand positioning your product strategically.';
+$_lang['en']['dev_marcas_texto']  = "Assist the brand management process worldwide, which includes creation, promotion and strengthening the brand identity, aligning the product and its image with the brand's positioning, strategically ensuring that your product connects effectively in the market.";
 $_lang['es']['dev_marcas_texto']  = 'Auxiliamos el proceso de gestión de la marca a nivel internacional, lo que implica la creación, promoción y fortalecimiento de su identidad, adecuando el producto y su imagen al posicionamiento estratégico de su marca.';
 
 $_lang['pt']['trading_texto']	  = 'Somos criadores de grandes oportunidades para nossos parceiros, combinando o conhecimento de mercado e a gestão de vendas em uma simples operação.';
@@ -549,19 +549,19 @@ $_lang['en']['trading_texto']	  = 'A builder of great opportunities for its busi
 $_lang['es']['trading_texto'] 	  = 'Somos creadores de grandes oportunidades para nuestros socios, combinando el conocimiento de mercado y gestión de ventas en una simple operación.';
 
 $_lang['pt']['logistica_texto']	  = 'Contamos com uma equipe experiente e qualificada, comprometida em garantir a pontualidade em todas as transações, acompanhando pedidos, embarques e documentos para atender aos prazos acordados.';
-$_lang['en']['logistica_texto']	  = 'Provides a very well qualified and experienced team committed to ensure punctuality in all transactions, tracking orders, deliveries and documents on time.';
+$_lang['en']['logistica_texto']	  = 'We offer a highly qualified and experienced team dedicated to ensuring punctuality in all transactions, tracking orders, deliveries, and documentation just in time.';
 $_lang['es']['logistica_texto']	  = 'Ofrecemos un equipo experimentado y calificado, comprometido en garantizar la puntualidad en todas las transacciones, acompañando pedidos, embarques y documentos para atender a los plazos acordados.';
 
 $_lang['pt']['int_mercado_texto'] = 'Fornecemos perspectivas importantes para nossos parceiros, agrupando dados completos, inteligência prática e profunda compreensão das tendências do mercado.';
-$_lang['en']['int_mercado_texto'] = 'A provider of key insights for customers through powerful solutions that combine comprehensive data, actionable intelligence, and deep understanding of the market tendencies.';
+$_lang['en']['int_mercado_texto'] = 'A provider of key insights for customers and suppliers through powerful solutions that combine comprehensive data, actionable intelligence, and deep understanding of the market trends.';
 $_lang['es']['int_mercado_texto'] = 'Proporcionamos perspectivas importantes para nuestros socios, agrupando datos completos, inteligencia práctica y profunda comprensión de las direcciones del mercado.';
 
 $_lang['pt']['int_mkt_texto_1'] = 'Participamos das principais feiras mundiais de alimentos anualmente para acessar as mais recentes tendências da indústria de carnes e acompanhar os movimentos de mercado, aumentando a visibilidade externa de nossos parceiros.';
-$_lang['en']['int_mkt_texto_1'] = 'Attend the main food shows worldwide yearly, to access the latest developments and trends of meat industry and keep track of the market movements, raising the external visibility of our business partners.';
+$_lang['en']['int_mkt_texto_1'] = 'Yearly attend many foods shows worldwide, to access the latest developments and trends of food industry and keep track of the market movements, raising the external visibility of our business partners.';
 $_lang['es']['int_mkt_texto_1'] = 'Participamos en las principales ferias de alimentos en todo el mundo anualmente para acceder a las últimas tendencias de la industria de carnes y vigilar los movimientos del mercado, aumentando la visibilidad externa de nuestros socios.';
 
 $_lang['pt']['int_mkt_texto_2'] = 'Visitamos frequentemente todos os mercados para prospectar clientes e desenvolver produtos. Realizamos ações de mídia por meio de marketing digital, folders, catálogos e especificações de produtos.';
-$_lang['en']['int_mkt_texto_2'] = 'Carry out frequent visits to all markets to prospect customers and develop products.  Undertake media actions through digital marketing, folders, catalogues and product specifications.';
+$_lang['en']['int_mkt_texto_2'] = 'Conduct regular visits to all markets to identify potential customers and suppliers to develop products. Implement media initiatives through digital marketing, folders, catalogs and product specifications.';
 $_lang['es']['int_mkt_texto_2'] = 'Visitamos con frecuencia todos los mercados para prospectar clientes y desarrollar productos. Ayudamos en la elaboración de materiales como marketing digital, prospectos, catálogos y especificaciones de productos.';
 
 $_lang['pt']['int_mkt_texto_3'] = 'Escritórios próprios em Dubai-UAE e Hong Kong-China.';

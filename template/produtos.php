@@ -8,12 +8,14 @@ $categoria = $FriendURL[1];
 
 $WHERE = "";
 
+
 if( isset($categoria) )
 {
 	$cat = get_id_categoria_produtos($categoria);
 	$catNome = get_nome_categoria_produtos($cat, $lang);
 	$WHERE  .= " AND id_grupo='{$cat}'";
 }
+
 
 
 
@@ -25,6 +27,9 @@ $_GET["ipp"]  = antiSQL($_GET["ipp"]);
 $count = $db->get_var("SELECT COUNT(*) FROM ".$tables['PRODUTOS']." WHERE status=1 ".$WHERE);
 $qProdutos = $db->get_results("SELECT * FROM ".$tables['PRODUTOS']." WHERE status=1 AND destaque=1 ".$WHERE." ORDER BY ordem ASC LIMIT 10");
 //$db->debug();
+
+$escolhaCorteTitulo = $categoria == 'others-products' ? 
+	$_lang[$lang]['escolha'] : $_lang[$lang]['escolha_seu_corte'];
 
 
 add_javascript(array('page-produtos.js'));
@@ -50,7 +55,7 @@ get_header(); ?>
 
 			<br>
 
-			<h3 class="waypoint animation_bottom"><?php echo $_lang[$lang]['escolha_seu_corte']; ?> <?php echo $catNome; ?></h3>
+			<h3 class="waypoint animation_bottom"><?php echo $escolhaCorteTitulo; ?> <?php echo $catNome; ?></h3>
 
 			<div class="columns cortes">
 

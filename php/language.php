@@ -528,6 +528,10 @@ $_lang['pt']['escolha_seu_corte'] = 'Escolha um corte de:';
 $_lang['en']['escolha_seu_corte'] = 'Choose a cut:';
 $_lang['es']['escolha_seu_corte'] = 'Elija un corte:';
 
+$_lang['pt']['escolha'] = 'Escolha:';
+$_lang['en']['escolha'] = 'Choose:';
+$_lang['es']['escolha'] = 'Elija:';
+
 $_lang['pt']['todos_os_cortes']   = 'TODOS OS CORTES';
 $_lang['en']['todos_os_cortes']   = 'ALL CUTS';
 $_lang['es']['todos_os_cortes']   = 'TODOS LOS CORTES';

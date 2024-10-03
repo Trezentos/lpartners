@@ -29,7 +29,7 @@ get_header(); ?>
 				<div class="column is-8">
 					<h1 class="waypoint animation_right"><?php echo $_lang[$lang]['menu_mercado_internacional']; ?></h1>
 
-					<img src="<?php echo HTTP; ?>img/representacao-exclusiva.jpg" class="waypoint animation_right">
+					<!-- <img src="<?php echo HTTP; ?>img/representacao-exclusiva.jpg" class="waypoint animation_right"> -->
 
 					<img src="<?php echo HTTP; ?>img/mercado_internacional_1.jpg" class="waypoint animation_right mt20">
 

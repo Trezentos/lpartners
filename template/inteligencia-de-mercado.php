@@ -32,7 +32,11 @@ get_header(); ?>
 
 					<!-- <img src="<?php echo HTTP; ?>img/Inteligencia_de_mercado.jpg" class="waypoint animation_right"> -->
 					
-					<img src="<?php echo HTTP; ?>img/inteligencia-de-mercado.jpg" class="waypoint animation_right">
+					<!-- <img src="<?php echo HTTP; ?>img/inteligencia-de-mercado.jpg" class="waypoint animation_right"> -->
+
+					<!-- <br><br> -->
+
+					<img src="<?php echo HTTP; ?>img/inteligencia-de-mercado-2.jpg" class="waypoint animation_right">
 
 					<br><br>
 

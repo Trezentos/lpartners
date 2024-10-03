@@ -86,6 +86,11 @@ get_header(); ?>
 								<img src="<?php echo HTTP; ?>img/icon-peru.png">
 							</div>
 						</a>
+						<a href="<?php echo HTTP; ?>produtos/others-products/<?php echo $lang; ?>" title="<?php echo $_lang[$lang]['peru']; ?>">
+							<div style="padding-top: 12px;" class="card-icon <?php echo ($categoria=="others-products"?"active":""); ?>">
+								<img src="<?php echo HTTP; ?>img/icon-saco.png">
+							</div>
+						</a>
 					</div>
 				</div>
 
@@ -254,6 +259,19 @@ get_header(); ?>
 							<img src="<?php echo HTTP; ?>img/icon-peru.png">
 						</div>
 						<h2><?php echo $_lang[$lang]['peru']; ?></h2>
+						<div class="has-text-centered">
+							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
+						</div>
+					</a>
+				</div>
+				<div class="column waypoint animation_bottom">
+					<a href="<?php echo HTTP.'produtos/others-products/'.$lang; ?>" 
+					class="has-text-centered card-home-produtos"
+					>
+						<div class="card-icon"  style="padding-top: 12px;">
+							<img src="<?php echo HTTP; ?>img/icon-saco.png">
+						</div>
+						<h2><?php echo $_lang[$lang]['outros_produtos']; ?></h2>
 						<div class="has-text-centered">
 							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
 						</div>

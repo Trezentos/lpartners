@@ -147,6 +147,17 @@ get_header();
 						</div>
 					</a>
 				</div>
+				<div class="column waypoint animation_bottom">
+					<a href="<?php echo HTTP.'produtos/others-products/'.$lang; ?>" class="has-text-centered card-home-produtos">
+						<div class="card-icon" style="padding-top: 15px;">
+							<img src="<?php echo HTTP; ?>img/icon-saco.png">
+						</div>
+						<h2><?php echo $_lang[$lang]['outros_produtos']; ?></h2>
+						<div class="has-text-centered">
+							<div class="botao"><?php echo $_lang[$lang]['ver_mais']; ?></div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>

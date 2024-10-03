@@ -70,6 +70,11 @@ $_lang['en']['peru'] 			= 'Turkey';
 $_lang['es']['peru'] 			= 'Perú';
 
 
+$_lang['pt']['outros_produtos'] = 'Outros Produtos';
+$_lang['en']['outros_produtos'] = 'Others Products';
+$_lang['es']['outros_produtos'] = 'Otros Productos';
+
+
 $_lang['pt']['voltar'] 				= 'Voltar';
 $_lang['en']['voltar'] 				= 'Go Back';
 $_lang['es']['voltar'] 				= 'Voltar';

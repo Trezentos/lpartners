@@ -1029,6 +1029,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
 							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
 							<li><a href="'.HTTP.'produtos/turkey/'.$lang.'">'.$_lang[$lang]['peru'].'</a></li>
+							<li><a href="'.HTTP.'produtos/others-products/'.$lang.'">'.$_lang[$lang]['outros_produtos'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1119,6 +1120,7 @@ function get_header() {
 							<li><a href="'.HTTP.'produtos/fish/'.$lang.'">'.$_lang[$lang]['peixe'].'</a></li>
 							<li><a href="'.HTTP.'produtos/lamb/'.$lang.'">'.$_lang[$lang]['cordeiro'].'</a></li>
 							<li><a href="'.HTTP.'produtos/turkey/'.$lang.'">'.$_lang[$lang]['peru'].'</a></li>
+							<li><a href="'.HTTP.'produtos/others-products/'.$lang.'">'.$_lang[$lang]['outros_produtos'].'</a></li>
 						</ul>
 					</li>
 					<!-- <li>
@@ -1214,6 +1216,7 @@ function get_footer() {
 					<a href="'.HTTP.'produtos/fish/'.$lang.'" class="link">'.$_lang[$lang]['peixe'].'</a>
 					<a href="'.HTTP.'produtos/lamb/'.$lang.'" class="link">'.$_lang[$lang]['cordeiro'].'</a>
 					<a href="'.HTTP.'produtos/turkey/'.$lang.'" class="link">'.$_lang[$lang]['peru'].'</a>
+					<a href="'.HTTP.'produtos/others-products/'.$lang.'" class="link">'.$_lang[$lang]['outros_produtos'].'</a>
 				</div>
 				<div class="column is-2">
 					<h3>'.$_lang[$lang]['menu_servicos'].'</h3>
